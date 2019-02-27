@@ -4,13 +4,16 @@ const http = require('http');
 const childProcess = require('child_process');
 
 const hostname = '127.0.0.1'; // 本机地址
-const port = 3000; // 端口
+const port = 8080; // 端口
 
 // 创建一个服务器
 const server = http.createServer((request, response) => {
   response.statusCode = 200; // 设置响应状态码
   response.setHeader('Content-Type', 'text/plain'); // 设置响应头
-  response.end('Hello World\n'); // 向前台输出内容
+  response.write('a')
+  response.write('b')
+  response.write('c')
+  response.end('d') // 向前台输出内容
 });
 
 // 开启监听
