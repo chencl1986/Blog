@@ -32,7 +32,7 @@ const server = http.createServer((req, res) => {
       let buffer = Buffer.concat(arr)
 
       // 处理接收到的POST数据
-      post = querystring.parse(buffer.toString())
+      post = JSON.parse(buffer.toString())
 
       complete()
     })
