@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- enctype="multipart/form-data"代表表单上传的是文件。 -->
+  <!-- enctype的默认值为enctype="application/x-www-form-urlencoded"表示上传的是数据类型，此时服务端接收到的数据为username=lee&password=123456&file=upload.txt -->
+  <form action="http://localhost:8080/upload" method="POST" enctype="multipart/form-data">
+    用户：<input type="text" name="username" value="lee"><br />
+    密码：<input type="password" name="password" value="123456"><br />
+    <input type="file" name="file" id=""><br />
+    <input type="submit" value="提交">
+  </form>
+</body>
+
+</html>
