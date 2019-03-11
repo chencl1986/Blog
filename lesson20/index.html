@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    /* 
+    1. 创建一个WebSocket连接，此时控制台的Network模块可以看到一个处于pending状态的WebSocket连接。
+
+    这个连接是一个HTTP请求，与普通HTTP请求的请求你头相比，增加了以下内容：
+    Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits  // 扩展信息
+    Sec-WebSocket-Key: O3PKSb95qaSB7/+XfaTg7Q== // 发送一个Key到服务端，用于校验服务端是否支持WebSocket
+    Sec-WebSocket-Version: 13 // WebSocket版本
+    Upgrade: websocket  // 告知服务器通信协议将会升级到WebSocket若服务器支持则继续下一步
+    */
+    const ws = new WebSocket('ws://localhost:8080/')
+
+    // 连接打开的事件
+    ws.onopen = function () {
+      console.log('连接已建立')
+    }
+
+    // 接收消息的事件
+    ws.onmessage = function () {
+      
+    }
+
+    // 连接正常关闭的事件
+    ws.onclose = function () {
+      
+    }
+
+    // 连接出错的事件
+    ws.onerror = function () {
+      
+    }
+  </script>
+</body>
+</html>
