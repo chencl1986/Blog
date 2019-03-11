@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引用Socket.io的客户端js文件，由于Socket.io已在服务端监听了HTTP服务器的请求，一旦收到对该文件的请求，则会自动返回该文件，不需要开发人员配置。 -->
+  <!-- 该文件在服务端的位置为/node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js -->
+  <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+  <script>
+    // 与服务器建立WebSocket连接，该连接为ws协议，socket.io不需要担心跨域问题。
+    const socket = io.connect('ws://localhost:8080/')
+
+    // 根据事件名，向服务端发送数据，数据数量不限。
+    socket.emit('msg', '客户端向服务端发送数据第一条', '客户端向服务端发送数据第二条')
+
+    // 根据事件名接收服务端返回的数据
+    socket.on('msg', (...msgs) => {
+      console.log(msgs)
+    })
+
+    // 接收服务端通过计时器发送来的数据
+    socket.on('timer', (time) => {
+      console.log(time)
+    })
+  </script>
+</body>
+
+</html>
