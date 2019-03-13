@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
+
 <body>
+  <input type="text" id="input" value="test message"><br />
+  <input type="button" value="发送消息" id="send"><br />
+  <h3>接收到的消息：</h3>
+  <p></p>
+  <input type="button" value="关闭聊天" id="close"><br />
   <script>
     /* 
-    1. 创建一个WebSocket连接，此时控制台的Network模块可以看到一个处于pending状态的WebSocket连接。
+    2. 创建一个WebSocket连接，此时控制台的Network模块可以看到一个处于pending状态的HTTP连接。
 
     这个连接是一个HTTP请求，与普通HTTP请求的请求你头相比，增加了以下内容：
     Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits  // 扩展信息
@@ -19,25 +26,37 @@
     */
     const ws = new WebSocket('ws://localhost:8080/')
 
-    // 连接打开的事件
+    // 连接打开的事件，连接开始后，可以在控制台的Network模块看到，该连接会一直保留在pending状态，直到连接断开。
     ws.onopen = function () {
       console.log('连接已建立')
     }
 
     // 接收消息的事件
-    ws.onmessage = function () {
-      
+    ws.onmessage = function (response) {
+      console.log(response)
+      document.querySelector('p').innerHTML = response.data
     }
 
     // 连接正常关闭的事件
     ws.onclose = function () {
-      
+      console.log('连接已关闭')
+      document.querySelector('p').innerHTML = '连接已关闭'
     }
 
     // 连接出错的事件
     ws.onerror = function () {
-      
+      console.log('连接出错')
     }
   </script>
+  <script>
+    document.querySelector('#send').addEventListener('click', function () {
+      ws.send(document.querySelector('#input').value)
+    })
+
+    document.querySelector('#close').addEventListener('click', function () {
+      ws.close()
+    })
+  </script>
 </body>
+
 </html>
