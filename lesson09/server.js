@@ -53,6 +53,7 @@ const server = http.createServer((req, res) => {
         fs.readFile('./users.json', (error, data) => {
           if (error) {
             res.writeHead(404)
+            res.end()
           } else {
             // 读取用户数据
             const users = JSON.parse(data.toString())
