@@ -131,14 +131,16 @@ const server = http.createServer((req, res) => {
         })
       } else {
         // 若不是注册或登录接口，则直接返回相应文件
-        fs.readFile(`.${path}`, (error, data) => {
-          if (error) {
-            res.writeHead(404)
-          } else {
-            res.write(data)
-          }
-          res.end()
-        })
+        if (pathname !== '/favicon.ico') {
+          fs.readFile(`.${path}`, (error, data) => {
+            if (error) {
+              res.writeHead(404)
+            } else {
+              res.write(data)
+            }
+            res.end()
+          })
+        }
       }
     } catch (error) {
       console.error(error);

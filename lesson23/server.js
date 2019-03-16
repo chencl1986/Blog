@@ -2,9 +2,10 @@ const http = require('http')
 const url = require('url')
 const fs = require('fs')
 const mysql = require('mysql')
+const coMysql = require('co-mysql')
 
 // 1. 连接服务器
-const connection = mysql.createPool({
+const pool = mysql.createPool({
   connectionLimit: 10,  // 建立的连接数量，默认为10个
   host: 'localhost',  // 地址
   port: 3306,  // 端口，不传则默认3306
@@ -12,6 +13,8 @@ const connection = mysql.createPool({
   password: '',  // 密码
   database: 'test'  // 连接的数据库
 })
+
+const connection = coMysql(pool)
 
 /* const username = 'lily'
 const password = '888888'
@@ -35,7 +38,7 @@ connection.query(`SELECT * FROM User_table`, (err, data) => {
 }) */
 
 // 2. 与HTTP模块配合使用
-const server = http.createServer((req, res) => {
+const server = http.createServer(async (req, res) => {
   const {
     pathname,
     query
@@ -68,37 +71,30 @@ const server = http.createServer((req, res) => {
       }))
       res.end()
     } else {  // 校验通过，开始注册流程
-      // 检查用户名是否已存在
-      connection.query(`SELECT ID FROM User_table WHERE username='${username}'`, (err, data) => {
-        if (err) {
-          res.writeHead(500)
-          res.end()
-        } else {
-          if (data.length) {
-            res.write(JSON.stringify({
-              error: 1,
-              msg: '此用户名已被占用'
-            }))
-            res.end()
-          } else {
-            // 将用户名和密码插入数据库
-            connection.query(`INSERT INTO user_table (username, password) VALUES('${username}', '${password}')`, (err, data) => {
-              if (err) {
-                res.writeHead(500)
-                res.end()
-              } else {
-                res.write(JSON.stringify({
-                  error: 0,
-                  msg: '注册成功'
-                }))
-                res.end()
-              }
-            })
-          }
-        }
-      })
-    }
+      try {
+        // 检查用户名是否已存在
+        const data = await connection.query(`SELECT ID FROM User_table WHERE username='${username}'`)
 
+        if (data.length) {
+          res.write(JSON.stringify({
+            error: 1,
+            msg: '此用户名已被占用'
+          }))
+        } else {
+          // 将用户名和密码插入数据库
+          await connection.query(`INSERT INTO userddd_table (username, password) VALUES('${username}', '${password}')`)
+
+          res.write(JSON.stringify({
+            error: 0,
+            msg: '注册成功'
+          }))
+        }
+      } catch (error) {
+        console.error(error)
+        res.writeHead(500)
+      }
+      res.end()
+    }
   } else if (pathname === '/login') {
     let arr = []
 
@@ -107,7 +103,7 @@ const server = http.createServer((req, res) => {
       arr.push(buffer)
     })
 
-    req.on('end', () => {
+    req.on('end', async () => {
       // 将Buffer数据合并
       let buffer = Buffer.concat(arr)
 
@@ -120,34 +116,33 @@ const server = http.createServer((req, res) => {
         password
       } = post
 
-      // 根据用户名查询
-      connection.query(`SELECT username, password FROM User_table WHERE username='${username}'`, (err, data) => {
-        if (err) {
-          console.error(err)
+      try {
+        // 根据用户名查询
+        const data = await connection.query(`SELECT username, password FROM User_table WHERE username='${username}'`)
+
+        if (!data.length) {
+          // 用户不存在
+          res.write(JSON.stringify({
+            error: 1,
+            msg: '用户名或密码错误'
+          }))
+        } else if (data[0].password !== password) {
+          // 密码不正确
+          res.write(JSON.stringify({
+            error: 1,
+            msg: '用户名或密码错误'
+          }))
         } else {
-          if (!data.length) {
-            // 用户不存在
-            res.write(JSON.stringify({
-              error: 1,
-              msg: '用户名或密码错误'
-            }))
-            res.end()
-          } else if (data[0].password !== password) {
-            // 密码不正确
-            res.write(JSON.stringify({
-              error: 1,
-              msg: '用户名或密码错误'
-            }))
-            res.end()
-          } else {
-            res.write(JSON.stringify({
-              error: 0,
-              msg: '登录成功'
-            }))
-            res.end()
-          }
+          res.write(JSON.stringify({
+            error: 0,
+            msg: '登录成功'
+          }))
         }
-      })
+      } catch (error) {
+        console.error(error)
+        res.writeHead(500)
+      }
+      res.end()
     })
   } else {
     // 若请求不为接口，则默认为请求文件
