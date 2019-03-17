@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div>
+      <input type="text" v-model="name">
+      <input type="text" v-model="userInfo.name">
+      <input type="text" v-model="users[1]">
+    </div>
+  </div>
+  <script src="../vue.js"></script>
+  <script>
+    let vm = new Vue({
+      el: '#app',
+      data: {
+        name: 'lee',
+        userInfo: {
+          name: 'lee',
+          age: 18
+        },
+        users: [
+          'lee',
+          'chen',
+          'john'
+        ]
+      },
+      watch: {
+        name(value) {
+          console.log(`name改变为${value}`)
+        },
+        // userInfo的属性修改不会触发该监听
+        userInfo(value) {
+          console.log('userInfo已改变', value)
+        },
+        // 可以监听对象的属性变化
+        'userInfo.name': function(value) {
+          console.log(`userInfo.name改变为${value}`)
+        },
+        // 可以监听数组中的某一项
+        'users.1': function (value) {
+          console.log(`users[1]改变为${value}`)
+        },
+        // 修改users[1]的值同时也会触发对数组的监听
+        users(value) {
+          console.log(`users改变为${value}`)
+        },
+      }
+    })
+  </script>
+</body>
+
+</html>

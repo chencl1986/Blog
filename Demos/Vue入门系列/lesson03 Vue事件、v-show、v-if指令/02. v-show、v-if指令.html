@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background: #faa;
+      margin-bottom: 20px;
+    }
+    .box2 {
+      width: 200px;
+      height: 200px;
+      background: #aaf;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <button v-on:click="onClick()">显示隐藏</button>
+    <div class="box" v-show="show"></div>
+    <div class="box2" v-if="show"></div>
+  </div>
+  <script src="../vue.js"></script>
+  <script>
+    let vm = new Vue({
+      el: '#app', // 根元素或挂载点。
+      data: {
+        show: true
+      },
+      methods: {
+        onClick(add) {
+          this.show = !this.show
+        },
+      }
+    })
+  </script>
+</body>
+</html>

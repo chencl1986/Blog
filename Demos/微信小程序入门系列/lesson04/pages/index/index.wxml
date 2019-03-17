@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view>
+  <button bindtap="showLoading">
+    showLoading
+  </button>
+  <button bindtap="showToast">
+    showToast
+  </button>
+  <button bindtap="showActionSheet">
+    showActionSheet
+  </button>
+  <button bindtap="showShareMenu">
+    showShareMenu
+  </button>
+  <button bindtap="getUserInfo">
+    getUserInfo
+  </button>
+  <button bindtap="login">
+    login
+  </button>
+  <button bindtap="scanCode">
+    scanCode
+  </button>
+  <button bindtap="setKeepScreenOn">
+    setKeepScreenOn
+  </button>
+  <button bindtap="setScreenBrightness">
+    setScreenBrightness
+  </button>
+  <button bindtap="getBatteryInfo">
+    getBatteryInfo
+  </button>
+  <button bindtap="connectWifi">
+    connectWifi
+  </button>
+  <button bindtap="startSoterAuthentication">
+    startSoterAuthentication
+  </button>
+  <button bindtap="getFileSystemManager">
+    getFileSystemManager
+  </button>
+  <button bindtap="downloadFile">
+    downloadFile
+  </button>
+  <button bindtap="startBluetoothDevicesDiscovery">
+    startBluetoothDevicesDiscovery
+  </button>
+  <button bindtap="request">
+    request
+  </button>
+</view>

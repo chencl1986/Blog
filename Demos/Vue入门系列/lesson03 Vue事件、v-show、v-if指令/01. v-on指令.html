@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+</head>
+<body>
+  <div id="app">
+    {{num}}
+    <button v-on:click="onClick(1)">+1</button>
+  </div>
+  <script src="../vue.js"></script>
+  <script>
+    let vm = new Vue({
+      el: '#app', // 根元素或挂载点。
+      data: {
+        num: 1
+      },
+      methods: {
+        onClick(add) {
+          this.num = this.num + add
+        },
+      }
+    })
+  </script>
+</body>
+</html>

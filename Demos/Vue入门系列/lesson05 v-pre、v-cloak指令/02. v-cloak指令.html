@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <style>
+    /* 有v-cloak属性的标签都不显示 */
+    [v-cloak] {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <!-- v-cloak指令只是在标签中加入一个v-cloak自定义属性，在HTML还编译完成之后该属性会被删除，可以CSS对标签设置样式，表示HTML还未被编译，比如可以设置display: none; -->
+    <div v-cloak>
+      {{a}} + {{b}}
+    </div>
+  </div>
+  <script src="../vue.js"></script>
+  <script>
+    // 延迟3秒实例化Vue，若不加v-cloak指令，在页面上会显示{{a}} + {{b}}，1秒之后才渲染出10 + 20。
+    setTimeout(() => {
+      let vm = new Vue({
+        el: '#app', // 根元素或挂载点。
+        data: {
+          a: 10,
+          b: 20
+        }
+      })
+    }, 3000);
+  </script>
+</body>
+
+</html>

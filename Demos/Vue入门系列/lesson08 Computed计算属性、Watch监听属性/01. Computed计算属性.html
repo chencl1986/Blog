@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div>
+      {{a}} + {{b}} = {{sum}}
+      姓：<input type="text" v-model="familyName">
+      名：<input type="text" v-model="name">
+      姓名：<input type="text" v-model="fullName">
+    </div>
+  </div>
+  <script src="../vue.js"></script>
+  <script>
+    let vm = new Vue({
+      el: '#app',
+      data: {
+        a: 12,
+        b: 33,
+        familyName: '张',
+        name: '三'
+      },
+      computed: {
+        sum() {
+          return this.a + this.b
+        },
+        fullName: {
+          get() {
+            return this.familyName + this.name
+          },
+          set(value) {
+            this.familyName = value[0]
+            this.name = value.substring(1)
+          },
+        }
+      },
+    })
+  </script>
+</body>
+
+</html>

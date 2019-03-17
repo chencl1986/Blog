@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <ul>
+      <li v-for="(item, index) in users" :key="item.id">
+        {{index}}.
+        用户名：{{item.name}}
+        密码：{{item.password}}
+      </li>
+    </ul>
+    <ol>
+      <li v-for="(value, key) in usersObj" :key="key">
+        用户名：{{key}}
+        密码：{{value}}
+      </li>
+    </ol>
+  </div>
+  <script src="../vue.js"></script>
+  <script>
+    let vm = new Vue({
+      el: '#app', // 根元素或挂载点。
+      data: {
+        users: [
+          { id: '1', name: 'lee', password: '123456' },
+          { id: '2', name: 'zhangsan', password: '654321' },
+          { id: '3', name: 'lisi', password: '111111' },
+        ],
+        usersObj: {
+          lee: '123456',
+          zhangsan: '654321',
+          lisi: '111111'
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+</head>
+<body>
+  <div id="app">
+    <!-- 通过v-bind指令插入属性，可以简写为:title="age + '岁'" -->
+    <span v-bind:title="age + '岁'">{{name}}</span>
+    <div :class="classStr"></div>
+    <div :class="classArr"></div>
+    <div :class="classObj"></div>
+    <div :style="styleStr"></div>
+    <div :style="styleObj"></div>
+    <div :style="[styleObj, styleObj2]"></div>
+  </div>
+  <script src="../vue.js"></script>
+  <script>
+    let vm = new Vue({
+      el: '#app', // 根元素或挂载点。
+      data: {
+        name: 'lee',
+        age: 18,
+        classStr: 'class1 class2 class3',
+        classArr: ['class1', 'class2', 'class3'],
+        classObj: { // 为false的属性将不会被渲染到标签中
+          class1: true,
+          class2: true,
+          class3: false
+        },
+        styleStr: 'display: block; height: 20px; background-color: red;',
+        styleObj: {
+          display: 'block',
+          height: '20px',
+          backgroundColor: 'blue'
+        },
+        styleObj2: {
+          width: '200px',
+          margin: '0 auto'
+        }
+      }
+    })
+  </script>
+</body>
+</html>

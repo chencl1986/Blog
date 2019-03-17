@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- name属性的值对应路由配置中components中的属性名 -->
+      <router-view name="header"></router-view>
+      <!-- 渲染默认视图 -->
+      <router-view></router-view>
+    </div>
+  </body>
+  <!-- 引用打包后的js文件 -->
+  <script src="dest/bundle.min.js" charset="utf-8"></script>
+</html>

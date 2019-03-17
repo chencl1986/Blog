@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <ul>
+      <li v-for="(item, index) in str" :key="index">
+        {{item}}
+      </li>
+    </ul>
+    <ul>
+      <li v-for="index in 10" :key="index">
+        {{index}}
+      </li>
+    </ul>
+  </div>
+  <script src="../vue.js"></script>
+  <script>
+    let vm = new Vue({
+      el: '#app', // 根元素或挂载点。
+      data: {
+        str: 'Vuejs Tutorial'
+      }
+    })
+  </script>
+</body>
+
+</html>

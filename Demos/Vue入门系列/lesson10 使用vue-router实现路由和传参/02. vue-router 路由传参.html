@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <style>
+    .nav {
+      color: #faa;
+    }
+
+    .router-link-active {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    跳转按钮，通过path跳转<br />
+    <router-link class="nav" to="/index">index</router-link>
+    <router-link class="nav" to="/news/123">news</router-link>
+    <router-link class="nav" to="/user?userId=666">user</router-link><br />
+    跳转按钮，通过name跳转<br />
+    <router-link class="nav" :to="{ name: 'index' }">index</router-link>
+    <router-link class="nav" :to="{ name: 'news', params: { id: 321 } }">news</router-link>
+    <router-link class="nav" :to="{ name: 'user', query: { userId: 888 } }">user</router-link><br />
+    下面是页面内容<br />
+    <!-- 路由的内容显示在router-view标签中 -->
+    <router-view></router-view>
+  </div>
+  <script src="../vue.js"></script>
+  <script src="../vue-router.js"></script>
+  <script>
+    // 路由表
+    const router = new VueRouter({
+      routes: [
+        {
+          path: '/index', // 路由的路径
+          name: 'index',  // 路由名称，可选属性，定义后可以用其实现跳转
+          component: { // 路由显示的组件
+            template: '<div>index</div>'  // 组件模板
+          }
+        },
+        {
+          path: '/news/:id/', // 通过路由传参
+          name: 'news',
+          component: {
+            template: '<div>新闻：{{$route.params.id}}</div>'
+          }
+        },
+        {
+          path: '/user',
+          name: 'user',
+          component: {
+            template: '<div>用户：{{$route.query.userId}}</div>'
+          }
+        },
+      ]
+    })
+
+    let vm = new Vue({
+      el: '#app',
+      data: {
+
+      },
+      // 将路由添加到Vue中
+      router
+    })
+  </script>
+</body>
+
+</html>

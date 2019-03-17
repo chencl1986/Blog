@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <style>
+    .nav {
+      color: #faa;
+    }
+    .router-link-active {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <router-link class="nav" to="/">首页</router-link>
+    <router-link class="nav" to="/news">新闻</router-link>
+    <!-- 多个路由容器 -->
+    <!-- name属性的值对应路由配置中components中的属性名 -->
+    <router-view name="header"></router-view>
+    <router-view></router-view>
+    <router-view name="footer"></router-view>
+  </div>
+  <script src="../vue.js"></script>
+  <script src="../vue-router.js"></script>
+  <script>
+    const headerCmp={ // 组件必须有父级标签，不可以直接写入文本
+      template: '<div>头部</div>'
+    }
+    
+    const footerCmp={
+      template: '<div>底部</div>'
+    }
+    
+    const footerCmp2={
+      template: '<div>底部</div>'
+    }
+
+    const newsCmp={
+      template: '<div>新闻</div>'
+    }
+
+    const userCmp={
+      template: '<div>用户</div>'
+    }
+
+    const indexCmp={
+      template: '<div>首页</div>'
+    }
+
+    // 路由表
+    const router = new VueRouter({
+      routes: [
+        {
+          path: '/', // 路由的路径
+          name: 'index',  // 路由名称，可选属性，定义后可以用其实现跳转
+          components: { // 通过components属性显示多个组件
+            default: indexCmp,  // 默认视图，对应<router-view></router-view>
+            header: headerCmp,  // 命名视图，对应<router-view name="header"></router-view>
+            footer: footerCmp
+          },
+        },
+        {
+          path: '/news',
+          name: 'news',
+          components: {
+            default: newsCmp,
+            header: headerCmp,
+            footer: footerCmp2
+          }
+        }
+      ]
+    })
+
+    let vm = new Vue({
+      el: '#app',
+      data: {
+
+      },
+      // 将路由添加到Vue中
+      router,
+      methods: {
+        fn1() {
+          // 通过路由名称跳转，配置params参数。
+          this.$router.replace({ name: 'index', params: { id: Math.random() } });
+        },
+        fn2() {
+          // 直接跳转路由地址，参数直接带在路径中。
+          this.$router.push(`/news/${Math.random()}`);
+        },
+        fn3() {
+          // 通过路由地址进行跳转，配置query参数。
+          this.$router.push({ path: '/user', query: { userId: 321 } });
+        },
+        fn4() {
+          console.log(this.$router)
+          this.$router.go(1)
+        },
+        fn5() {
+          this.$router.forward()
+        },
+        fn6() {
+          this.$router.go(-1)
+        },
+        fn7() {
+          this.$router.back()
+        },
+      }
+    })
+  </script>
+</body>
+
+</html>

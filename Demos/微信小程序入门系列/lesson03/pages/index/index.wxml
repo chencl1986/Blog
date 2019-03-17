@@ -1,0 +1,58 @@
+<!-- index.wxml -->
+<view>
+  <view>数据绑定</view>
+  <text>{{name}}</text>
+  <text>{{age}}</text>
+  <view>{{name}}</view>
+  <view>{{age}}</view>
+  <view>列表渲染</view>
+  <view>
+    <view wx:for="{{arr}}" wx:key="{{index}}">{{item}}</view>
+  </view>
+  <view>条件渲染</view>
+  <view wx:if="{{judge}}">
+    <text>judge为true时显示</text>
+  </view>
+  <view wx:else>
+    <text>judge为false时显示</text>
+  </view>
+  <view>模板</view>
+  <template name="staffName">
+    <view>FirstName: {{firstName}}, LastName: {{lastName}}</view>
+  </template>
+  <template is="staffName" data="{{...staffA}}"></template>
+  <template is="staffName" data="{{...staffB}}"></template>
+  <template is="staffName" data="{{...staffC}}"></template>
+  <view>事件</view>
+  <button type="primary" bindtap="onTap">修改条件渲染</button>
+  <view>scroll-view</view>
+  <scroll-view scroll-y="{{true}}" style="height: 100rpx;">
+    <view wx:for="{{arr}}" wx:key="{{index}}">{{item}}</view>
+  </scroll-view>
+  <view>icon</view>
+  <icon type="success" size="23" color="green" />
+  <text>成功</text>
+  <view>navigator</view>
+  <navigator url="/pages/login/login">跳转到login</navigator>
+  <view>radio和checkbox</view>
+  <form action="">
+    <radio-group>
+      <label wx:for="{{options}}" wx:for-item="item" wx:key="{{item.id}}">
+        <radio value="{{item.value}}" />
+        {{item.name}}
+      </label>
+    </radio-group>
+    <checkbox-group>
+      <label wx:for="{{options}}" wx:for-item="item" wx:key="{{item.id}}">
+        <checkbox value="{{item.value}}" />
+        {{item.name}}
+      </label>
+    </checkbox-group>
+  </form>
+  <view>picker</view>
+  <form>
+    <picker mode="selector" range="{{options}}" value="{{pickerSelected}}" bindchange="onPickerChange">
+      <view>{{pickerSelected}}</view>
+    </picker>
+  </form>
+</view>
