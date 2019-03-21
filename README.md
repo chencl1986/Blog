@@ -79,7 +79,8 @@ Node.js入门系列 更新中，已发布 23 篇。
 21. [Nodejs教程21：数据库入门](https://github.com/chencl1986/Blog/issues/52)
 22. [Nodejs教程22：使用Nodejs操作数据库](https://github.com/chencl1986/Blog/issues/53)
 23. [Nodejs教程23：使用async await异步操作数据库](https://github.com/chencl1986/Blog/issues/54)
-23. [Nodejs教程24：Stream流](https://github.com/chencl1986/Blog/issues/55)
+24. [Nodejs教程24：Stream流](https://github.com/chencl1986/Blog/issues/55)
+25. [Nodejs教程25：启动器](https://github.com/chencl1986/Blog/issues/56)
 
 ## 勘误及提问
 
