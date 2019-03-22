@@ -82,6 +82,11 @@ Node.js入门系列 更新中，已发布 23 篇。
 24. [Nodejs教程24：Stream流](https://github.com/chencl1986/Blog/issues/55)
 25. [Nodejs教程25：启动器](https://github.com/chencl1986/Blog/issues/56)
 
+## 所思所想系列目录
+
+1. [如何清除团队中的“害群之马”？（上篇）](https://github.com/chencl1986/Blog/issues/57)
+2. [如何清除团队中的“害群之马”？（下篇）](https://github.com/chencl1986/Blog/issues/58)
+
 ## 勘误及提问
 
 如果有疑问或者发现错误，可以在相应的 issues 进行提问或勘误。
