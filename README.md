@@ -42,7 +42,7 @@ Node.js入门系列 更新中，已发布 23 篇。
 24. [Vue教程23：Vuex异步Action](https://github.com/chencl1986/Blog/issues/24)
 25. [Vue教程24：Vuex Modules（完结）](https://github.com/chencl1986/Blog/issues/25)
 
-## React Native入门系列 系列目录
+## React Native入门系列目录
 
 1. [React Native教程01：简介及环境准备](https://github.com/chencl1986/Blog/issues/26)
 2. [React Native教程02：基础组件和样式介绍（完结）](https://github.com/chencl1986/Blog/issues/27)
@@ -54,7 +54,7 @@ Node.js入门系列 更新中，已发布 23 篇。
 3. [微信小程序教程03：WXML语法](https://github.com/chencl1986/Blog/issues/30)
 4. [微信小程序教程04：API（完结）](https://github.com/chencl1986/Blog/issues/31)
 
-## Node.js入门系列 系列目录
+## Node.js入门系列目录
 
 1. [Nodejs教程01：Nodejs简介](https://github.com/chencl1986/Blog/issues/32)
 2. [Nodejs教程02：response.write](https://github.com/chencl1986/Blog/issues/33)
