@@ -81,6 +81,7 @@ Node.js入门系列 更新中，已发布 23 篇。
 23. [Nodejs教程23：使用async await异步操作数据库](https://github.com/chencl1986/Blog/issues/54)
 24. [Nodejs教程24：Stream流](https://github.com/chencl1986/Blog/issues/55)
 25. [Nodejs教程25：启动器](https://github.com/chencl1986/Blog/issues/56)
+26. [Nodejs教程26：Node.js项目之一：创建目录，环境配置，连接数据库](https://github.com/chencl1986/Blog/issues/59)
 
 ## 所思所想系列目录
 
