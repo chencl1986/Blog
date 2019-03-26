@@ -4,5 +4,5 @@ module.exports = {
   DB_PORT: 3306,
   DB_USER: 'root',
   DB_PASS: '',
-  DB_NAME: 'node_project'
+  DB_NAME: 'test'
 }
