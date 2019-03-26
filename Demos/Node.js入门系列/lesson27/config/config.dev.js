@@ -12,5 +12,6 @@ module.exports = {
   HTTP_PORT: 8080,
   // 静态文件绝对路径
   HTTP_ROOT: path.resolve(__dirname, '../static/'),
+  // 上传文件保存绝对路径
   HTTP_UPLOAD: path.resolve(__dirname, '../static/upload')
 }
