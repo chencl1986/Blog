@@ -17,7 +17,7 @@ const {
 const { findRouter } = require('./router')
 
 const server = http.createServer((req, res) => {
-  // 1. 解析请求数据
+  // 解析请求数据
   // 获取请求路径及query数据
   const method = req.method
   const {
@@ -26,7 +26,7 @@ const server = http.createServer((req, res) => {
   } = url.parse(req.url, true)
 
   // 处理POST请求
-  if (req.method === 'POST') {
+  if (method === 'POST') {
     // 根据请求头的content-type属性值，区分是普通POST请求，还是文件请求。
     // content-type为application/x-www-form-urlencoded时，表示是普通POST请求
     // 普通POST请求直接进行处理，文件请求使用multiparty处理
@@ -89,6 +89,7 @@ const server = http.createServer((req, res) => {
   function processData(method, pathname, query, post, files) {
     const callback = findRouter(method, pathname)  // 获取处理请求的回调函数
 
+    // 若回调函数存在，则表示路由有配置相应的数据处理，即该请求不是获取静态文件。
     if (callback) {
       try {
         // 根据路由处理接口数据
@@ -133,5 +134,7 @@ const server = http.createServer((req, res) => {
   }
 })
 
+// 监听配置的端口
 server.listen(HTTP_PORT)
+// 打印创建服务器成功信息
 console.log(`Server started at ${HTTP_PORT}`)
