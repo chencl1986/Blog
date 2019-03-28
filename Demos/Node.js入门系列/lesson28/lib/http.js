@@ -82,7 +82,7 @@ const server = http.createServer((req, res) => {
     }
   } else {  // 处理GET请求
     // 通过路由处理数据，因为此时是GET请求，只有query数据
-    processData(method, url, query, {}, {})
+    processData(method, pathname, query, {}, {})
   }
 
   // 通过路由处理请求数据的公共方法
