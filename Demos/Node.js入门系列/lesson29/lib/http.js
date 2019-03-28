@@ -25,6 +25,12 @@ const server = http.createServer((req, res) => {
     query
   } = url.parse(req.url, true)
 
+  // 为res添加writeJson方法，统一处理返回前台的JSON数据为字符串
+  res.writeJson = (json) => {
+    res.setHeader('content-type', 'application/json')
+    res.write(JSON.stringify(json))
+  }
+
   // 处理POST请求
   if (method === 'POST') {
     // 根据请求头的content-type属性值，区分是普通POST请求，还是文件请求。
@@ -95,6 +101,7 @@ const server = http.createServer((req, res) => {
         // 根据路由处理接口数据
         await callback(res, query, post, files)
       } catch (error) {
+        console.error(error)
         // 出现错误的处理
         res.writeHead(500)
         res.write('Internal Server Error')
