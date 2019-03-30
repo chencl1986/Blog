@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js --dev",
+    "build": "node server.js --build"
   },
   "keywords": [],
   "author": "",

@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   // 数据库配置
   DB_HOST: '11.11.11.11',

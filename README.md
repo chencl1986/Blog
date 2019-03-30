@@ -84,6 +84,7 @@ Node.js入门系列 更新中，已发布 23 篇。
 26. [Node.js教程26：Node.js项目之一：创建目录，环境配置，连接数据库](https://github.com/chencl1986/Blog/issues/59)
 27. [Node.js教程27：Node.js项目之二：实现路由](https://github.com/chencl1986/Blog/issues/60)
 28. [Nodejs教程28：Node.js项目之三：实现服务器](https://github.com/chencl1986/Blog/issues/61)
+29. [Nodejs教程29：Node.js项目之四：添加路由，完成项目](https://github.com/chencl1986/Blog/issues/62)
 
 ## 所思所想系列目录
 
