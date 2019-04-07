@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <h3>文件上传</h3>
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    用户：<input type="text" name="username"><br />
+    密码：<input type="text" name="password"><br />
+    <input type="file" name="file" id="">
+    <input type="submit" value="上传">
+  </form>
+  <h3>普通表单提交</h3>
+  <form action="/login" method="POST">
+    用户：<input type="text" name="username" id="username"><br />
+    密码：<input type="text" name="password" id="password"><br />
+    <input type="submit" value="表单登录">
+  </form>
+  <h3>Fetch提交</h3>
+  <input type="button" value="GET注册" id="reg">
+  <input type="button" value="POST登录" id="login">
+  <script>
+    // 注册
+    document.querySelector('#reg').addEventListener('click', async function () {
+      const response = await fetch(`/reg?username=${document.querySelector('#username').value}&password=${document.querySelector('#password').value}`)
+      const result = await response.json()
+      console.log(result)
+      alert(result.msg)
+    })
+
+    // 登录
+    document.querySelector('#login').addEventListener('click', async function () {
+      const response = await fetch(`/login`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          username: document.querySelector('#username').value,
+          password: document.querySelector('#password').value
+        })
+      })
+      const result = await response.json()
+      console.log(result)
+      alert(result.msg)
+    })
+  </script>
+</body>
+
+</html>

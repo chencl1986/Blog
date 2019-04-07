@@ -8,7 +8,9 @@ Vue入门系列 25 篇已完结。
 
 React Native入门系列 2 篇已完结。
 
-Node.js入门系列 更新中，已发布 23 篇。
+Node.js入门系列 更新中，已发布 29 篇。
+
+所思所想系列 更新中，已发布 3 篇。
 
 ## 专栏
 
@@ -90,6 +92,7 @@ Node.js入门系列 更新中，已发布 23 篇。
 
 1. [如何清除团队中的“害群之马”？（上篇）](https://github.com/chencl1986/Blog/issues/57)
 2. [如何清除团队中的“害群之马”？（下篇）](https://github.com/chencl1986/Blog/issues/58)
+3. [补硒真的能防癌吗？](https://github.com/chencl1986/Blog/issues/63)
 
 ## 勘误及提问
 
