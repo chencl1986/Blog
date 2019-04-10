@@ -9,7 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js --dev",
-    "build": "node server.js --build"
+    "build": "node server.js --build",
+    "pm2dev": "pm2 start ecosystem.config.js --watch",
+    "pm2build": "pm2 start ecosystem.config.js --watch --env production",
+    "monit": "pm2 monit"
   },
   "keywords": [],
   "author": "",

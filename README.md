@@ -2,13 +2,13 @@
 
 ## 进度
 
-Vue入门系列 25 篇已完结。
+Vue入门系列 25 篇，已完结。
 
-微信小程序入门系列 4 篇已完结。
+微信小程序入门系列 4 篇，已完结。
 
-React Native入门系列 2 篇已完结。
+React Native入门系列 2 篇，已完结。
 
-Node.js入门系列 更新中，已发布 29 篇。
+Node.js入门系列 30 篇，已完结。
 
 所思所想系列 更新中，已发布 3 篇。
 
@@ -87,6 +87,7 @@ Node.js入门系列 更新中，已发布 29 篇。
 27. [Node.js教程27：Node.js项目之二：实现路由](https://github.com/chencl1986/Blog/issues/60)
 28. [Nodejs教程28：Node.js项目之三：实现服务器](https://github.com/chencl1986/Blog/issues/61)
 29. [Nodejs教程29：Node.js项目之四：添加路由，完成项目](https://github.com/chencl1986/Blog/issues/62)
+30. [Nodejs教程30（完结）：PM2入门](https://github.com/chencl1986/Blog/issues/64)
 
 ## 所思所想系列目录
 
