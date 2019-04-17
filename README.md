@@ -10,7 +10,7 @@ React Native入门系列 2 篇，已完结。
 
 Node.js入门系列 30 篇，已完结。
 
-所思所想系列 更新中，已发布 5 篇。
+所思所想系列 更新中，已发布 6 篇。
 
 ## 专栏
 
@@ -96,6 +96,7 @@ Node.js入门系列 30 篇，已完结。
 3. [补硒真的能防癌吗？](https://github.com/chencl1986/Blog/issues/63)
 4. [如何保护孩子的牙齿健康](https://github.com/chencl1986/Blog/issues/65)
 5. [生活是多维的](https://github.com/chencl1986/Blog/issues/66)
+6. [中年危机也许只是个幻觉](https://github.com/chencl1986/Blog/issues/67)
 
 ## 勘误及提问
 
