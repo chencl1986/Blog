@@ -10,6 +10,8 @@ React Native入门系列 2 篇，已完结。
 
 Node.js入门系列 30 篇，已完结。
 
+Express入门系列 更新中，已发布 1 篇。
+
 所思所想系列 更新中，已发布 6 篇。
 
 ## 专栏
@@ -88,6 +90,10 @@ Node.js入门系列 30 篇，已完结。
 28. [Nodejs教程28：Node.js项目之三：实现服务器](https://github.com/chencl1986/Blog/issues/61)
 29. [Nodejs教程29：Node.js项目之四：添加路由，完成项目](https://github.com/chencl1986/Blog/issues/62)
 30. [Nodejs教程30（完结）：PM2入门](https://github.com/chencl1986/Blog/issues/64)
+
+## Express入门系列目录
+
+1. [Express教程01：创建服务器、配置路由](https://github.com/chencl1986/Blog/issues/68)
 
 ## 所思所想系列目录
 
