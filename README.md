@@ -10,7 +10,7 @@ React Native入门系列 2 篇，已完结。
 
 Node.js入门系列 30 篇，已完结。
 
-Express入门系列 更新中，已发布 1 篇。
+Express入门系列 更新中，已发布 2 篇。
 
 所思所想系列 更新中，已发布 6 篇。
 
@@ -94,6 +94,7 @@ Express入门系列 更新中，已发布 1 篇。
 ## Express入门系列目录
 
 1. [Express教程01：创建服务器、配置路由](https://github.com/chencl1986/Blog/issues/68)
+2. [Express教程02：使用中间件处理静态文件和数据请求](https://github.com/chencl1986/Blog/issues/69)
 
 ## 所思所想系列目录
 
