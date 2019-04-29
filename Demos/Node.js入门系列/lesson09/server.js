@@ -131,7 +131,7 @@ const server = http.createServer((req, res) => {
         })
       } else {
         // 若不是注册或登录接口，则直接返回相应文件
-        if (pathname !== '/favicon.ico') {
+        if (path !== '/favicon.ico') {
           fs.readFile(`.${path}`, (error, data) => {
             if (error) {
               res.writeHead(404)
@@ -149,3 +149,5 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(8080)
+
+console.log(`Server started at http://localhost:8080`)
