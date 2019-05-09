@@ -10,7 +10,7 @@ React Native入门系列 2 篇，已完结。
 
 Node.js入门系列 30 篇，已完结。
 
-Express入门系列 更新中，已发布 4 篇。
+Express入门系列 更新中，已发布 5 篇。
 
 所思所想系列 更新中，已发布 6 篇。
 
@@ -97,6 +97,7 @@ Express入门系列 更新中，已发布 4 篇。
 2. [Express教程02：使用中间件处理静态文件和数据请求](https://github.com/chencl1986/Blog/issues/69)
 3. [Express教程03：自己实现一个body-parser中间件](https://github.com/chencl1986/Blog/issues/70)
 4. [Express教程04：处理文件上传](https://github.com/chencl1986/Blog/issues/71)
+5. [Express教程05：Cookie](https://github.com/chencl1986/Blog/issues/72)
 
 ## 所思所想系列目录
 
