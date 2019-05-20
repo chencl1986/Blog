@@ -1,7 +1,7 @@
 const Koa = require('koa')
 const Router = require('koa-router')
 
-const app = new Koa()  // 使用new创建一个app
+const app = new Koa()  // 创建一个服务器
 
 app.listen(8080) // 监听8080端口
 
