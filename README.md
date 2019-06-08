@@ -12,7 +12,7 @@ Node.js入门系列 30 篇，已完结。
 
 Express入门系列 6 篇，已完结。
 
-所思所想系列 更新中，已发布 6 篇。
+所思所想系列 更新中，已发布 7 篇。
 
 ## 专栏
 
@@ -108,6 +108,7 @@ Express入门系列 6 篇，已完结。
 4. [如何保护孩子的牙齿健康](https://github.com/chencl1986/Blog/issues/65)
 5. [生活是多维的](https://github.com/chencl1986/Blog/issues/66)
 6. [中年危机也许只是个幻觉](https://github.com/chencl1986/Blog/issues/67)
+7. [如何识别刷屏文章中的伪科学](https://github.com/chencl1986/Blog/issues/74)
 
 ## 勘误及提问
 
