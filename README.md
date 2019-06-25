@@ -12,6 +12,8 @@ Node.js入门系列 30 篇，已完结。
 
 Express入门系列 6 篇，已完结。
 
+怎样成为快速阅读的高手 3 篇，已发布 1 篇。
+
 所思所想系列 更新中，已发布 7 篇。
 
 ## 专栏
@@ -99,6 +101,10 @@ Express入门系列 6 篇，已完结。
 4. [Express教程04：处理文件上传](https://github.com/chencl1986/Blog/issues/71)
 5. [Express教程05：Cookie](https://github.com/chencl1986/Blog/issues/72)
 6. [Express教程06：Session（完结）](https://github.com/chencl1986/Blog/issues/73)
+
+## 怎样成为快速阅读的高手
+
+1. [怎样成为快速阅读的高手（上）](https://github.com/chencl1986/Blog/issues/75)
 
 ## 所思所想系列目录
 
