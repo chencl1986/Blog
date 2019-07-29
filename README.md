@@ -106,6 +106,7 @@ Express入门系列 6 篇，已完结。
 
 1. [怎样成为快速阅读的高手（上）](https://github.com/chencl1986/Blog/issues/75)
 2. [怎样成为快速阅读的高手（中）](https://github.com/chencl1986/Blog/issues/76)
+3. [怎样成为快速阅读的高手（下）](https://github.com/chencl1986/Blog/issues/77)
 
 ## 所思所想系列目录
 
