@@ -14,6 +14,8 @@ Express入门系列 6 篇，已完结。
 
 怎样成为快速阅读的高手 3 篇，已完结。
 
+如何成为有效学习的高手 7 篇，已发布 7 篇。
+
 所思所想系列 更新中，已发布 7 篇。
 
 ## 专栏
@@ -107,6 +109,10 @@ Express入门系列 6 篇，已完结。
 1. [怎样成为快速阅读的高手（上）](https://github.com/chencl1986/Blog/issues/75)
 2. [怎样成为快速阅读的高手（中）](https://github.com/chencl1986/Blog/issues/76)
 3. [怎样成为快速阅读的高手（下）](https://github.com/chencl1986/Blog/issues/77)
+
+## 如何成为有效学习的高手
+
+1. [如何成为有效学习的高手：1. 找到适合你的学习方法](https://github.com/chencl1986/Blog/issues/78)
 
 ## 所思所想系列目录
 
