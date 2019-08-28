@@ -10,6 +10,7 @@ let mode = ''
 // 通过pm2启动项目，直接传入mode
 // pm2 start ecosystem.config.js --watch --env production 为生产环境启动命令
 console.log(process.env.NODE_ENV)
+console.log(process.argv)
 mode = process.env.NODE_ENV
 
 module.exports = {
