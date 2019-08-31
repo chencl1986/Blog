@@ -114,6 +114,7 @@ Express入门系列 6 篇，已完结。
 
 1. [如何成为有效学习的高手：1. 找到适合你的学习方法](https://github.com/chencl1986/Blog/issues/78)
 2. [如何成为有效学习的高手：2. 不谈兴趣，用任务驱动学习](https://github.com/chencl1986/Blog/issues/79)
+3. [如何成为有效学习的高手：3. 拖延症的“确诊与治疗”](https://github.com/chencl1986/Blog/issues/80)
 
 ## 所思所想系列目录
 
