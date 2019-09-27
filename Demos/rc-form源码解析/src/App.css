@@ -1,0 +1,18 @@
+@import '~antd/dist/antd.css';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.app p {
+  margin-bottom: 13px;
+}
+
+.app .ant-btn {
+  margin-bottom: 20px;
+}
