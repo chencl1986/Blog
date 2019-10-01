@@ -119,6 +119,7 @@ Express入门系列 6 篇，已完结。
 5. [如何成为有效学习的高手：5. 直奔大师，不必从基础开始](https://github.com/chencl1986/Blog/issues/82)
 6. [如何成为有效学习的高手：6. 给自己制造反馈](https://github.com/chencl1986/Blog/issues/83)
 7. [如何成为有效学习的高手：7. 怎样突破学习瓶颈](https://github.com/chencl1986/Blog/issues/84)
+8. [如何成为有效学习的高手：8. 思维导图](https://github.com/chencl1986/Blog/issues/85)
 
 ## 所思所想系列目录
 
