@@ -184,12 +184,11 @@ function createForm(WrappedComponent: React.ComponentClass<FormComponentProps>):
       const validator = new AsyncValidator(rules)
 
       validator.validate(values, {}, (errors: ErrorList): void => {
+        this.fields[name].errors = []
         if (errors) {
           errors.forEach((error: ValidateError): void => {
             this.fields[name].errors.push(error)
           })
-        } else {
-          this.fields[name].errors = []
         }
       })
     }
@@ -200,13 +199,12 @@ function createForm(WrappedComponent: React.ComponentClass<FormComponentProps>):
       const validator = new AsyncValidator(rules)
 
       validator.validate(values, {}, (errors: ErrorList): void => {
+        Object.keys(values).forEach((name: string): void => {
+          this.fields[name].errors = []
+        })
         if (errors) {
           errors.forEach((error: ValidateError): void => {
             this.fields[error.field].errors.push(error)
-          })
-        } else {
-          Object.keys(values).forEach((name: string): void => {
-            this.fields[name].errors = []
           })
         }
         callback && callback(errors, values)
