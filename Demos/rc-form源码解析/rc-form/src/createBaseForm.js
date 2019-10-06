@@ -107,6 +107,7 @@ function createBaseForm(option = {}, mixins = []) {
         this.cleanUpUselessFields();
       },
 
+      // 获取当前表单项的field、fieldMeta数据
       onCollectCommon(name, action, args) {
         const fieldMeta = this.fieldsStore.getFieldMeta(name);
         if (fieldMeta[action]) {
@@ -114,7 +115,7 @@ function createBaseForm(option = {}, mixins = []) {
         } else if (fieldMeta.originalProps && fieldMeta.originalProps[action]) {
           fieldMeta.originalProps[action](...args);
         }
-        // 通过getValueFromEvent方法，获取当前表单项的值
+        // 通过getValueFromEvent方法，从event中获取当前表单项的值，fieldMeta.getValueFromEvent为用户自定义的方法。
         const value = fieldMeta.getValueFromEvent ?
           fieldMeta.getValueFromEvent(...args) :
           getValueFromEvent(...args);
@@ -128,11 +129,14 @@ function createBaseForm(option = {}, mixins = []) {
             ...this.props
           }, set({}, name, value), valuesAllSet);
         }
+        // 获取相应字段的field数据
         const field = this.fieldsStore.getField(name);
         return ({name, field: {...field, value, touched: true}, fieldMeta});
       },
 
+      // 设置表单数据
       onCollect(name_, action, ...args) {
+        // 获取当前表单数据及设置
         const {name, field, fieldMeta} = this.onCollectCommon(name_, action, args);
         const {validate} = fieldMeta;
 
@@ -148,6 +152,7 @@ function createBaseForm(option = {}, mixins = []) {
       },
 
       onCollectValidate(name_, action, ...args) {
+        // 获取当前表单数据及设置
         const {field, fieldMeta} = this.onCollectCommon(name_, action, args);
         const newField = {
           ...field,
@@ -156,6 +161,7 @@ function createBaseForm(option = {}, mixins = []) {
 
         this.fieldsStore.setFieldsAsDirty();
 
+        // 进行表单校验，并存储表单数据
         this.validateFieldsInternal([newField], {
           action,
           options: {
@@ -181,7 +187,7 @@ function createBaseForm(option = {}, mixins = []) {
 
       // 创建新的表单项组件
       getFieldDecorator(name, fieldOption) {
-        // 获取新表单项的props，主要是value属性和onChange事件等
+        // 注册表单项，获取新表单项的props，主要是value属性和onChange事件等
         const props = this.getFieldProps(name, fieldOption);
 
         return (fieldElem) => {
@@ -267,13 +273,18 @@ function createBaseForm(option = {}, mixins = []) {
           inputProps[fieldNameProp] = formName ? `${formName}_${name}` : name;
         }
 
+        // 获取表单项校验触发事件及校验规则
         const validateRules = normalizeValidateRules(validate, rules, validateTrigger);
+        // 获取表单项校验事件
         const validateTriggers = getValidateTriggers(validateRules);
         validateTriggers.forEach((action) => {
+          // 若已绑定了校验事件，则返回
           if (inputProps[action]) return;
+          // 绑定收集表单数据及校验事件
           inputProps[action] = this.getCacheBind(name, action, this.onCollectValidate);
         });
 
+        // 若validateTriggers为空，则绑定普通事件，不进行校验
         // 使用onCollect方法，获取绑定表单项输入值事件，将其存储到inputProps中，并返回给组件用作props
         // make sure that the value will be collect
         if (trigger && validateTriggers.indexOf(trigger) === -1) {
@@ -281,12 +292,13 @@ function createBaseForm(option = {}, mixins = []) {
           inputProps[trigger] = this.getCacheBind(name, trigger, this.onCollect);
         }
 
+        // 将当前已设置的表单选项，与新表单选项合并，并存入fieldsMeta属性
         const meta = {
           ...fieldMeta,
           ...fieldOption,
           validate: validateRules,
         };
-        // 将表单设置如initialValue、validateRules等，存储到this.fieldsStore.fieldsMeta[name]中
+        // 注册表单项，将表单设置如initialValue、validateRules等，存储到this.fieldsStore.fieldsMeta[name]中
         this.fieldsStore.setFieldMeta(name, meta);
         if (fieldMetaProp) {
           inputProps[fieldMetaProp] = meta;
@@ -467,6 +479,7 @@ function createBaseForm(option = {}, mixins = []) {
           allValues[name] = newField.value;
           allFields[name] = newField;
         });
+        // 设置清空后的表单校验结果
         this.setFields(allFields);
         // in case normalize
         Object.keys(allValues).forEach((f) => {
@@ -545,7 +558,7 @@ function createBaseForm(option = {}, mixins = []) {
               nowAllFields[name] = nowField;
             }
           });
-          // 存储新校验结果
+          // 存储新表单数据及结果
           this.setFields(nowAllFields);
           if (callback) {
             if (expired.length) {

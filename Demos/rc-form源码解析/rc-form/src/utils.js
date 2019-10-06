@@ -62,6 +62,17 @@ export function flattenFields(maybeNestedFields, isLeafNode, errorMessage) {
   return fields;
 }
 
+/**
+ * 将validate、rules、validateTrigger三个参数配置的校验事件及规则，整理成统一的校验事件、规则
+ * @param {Array<object>} validate 校验事件、规则
+ * @param {string} validate[].trigger 校验事件
+ * @param {object[]} validate[].rules 校验规则，参考async-validator，https://github.com/yiminghe/async-validator
+ * @param {object[]} rules 校验规则，参考async-validator，https://github.com/yiminghe/async-validator
+ * @param {string} validateTrigger 校验事件
+ * @returns {Array<object>} validateRules 校验事件、规则
+ * @returns {string[]} validateRules[].trigger 校验事件
+ * @returns {object[]} validateRules[].rules 校验规则，参考async-validator，https://github.com/yiminghe/async-validator
+ */
 export function normalizeValidateRules(validate, rules, validateTrigger) {
   const validateRules = validate.map((item) => {
     const newItem = {
@@ -82,6 +93,13 @@ export function normalizeValidateRules(validate, rules, validateTrigger) {
   return validateRules;
 }
 
+/**
+ * 将validate、rules、validateTrigger三个参数配置的校验事件及规则，整理成统一的校验事件、规则
+ * @param {Array<object>} validateRules 校验事件、规则
+ * @param {string[]} validateRules[].trigger 校验事件
+ * @param {object[]} validateRules[].rules 校验规则，参考async-validator，https://github.com/yiminghe/async-validator
+ * @returns {Array<string>} 校验事件
+ */
 export function getValidateTriggers(validateRules) {
   return validateRules
     .filter(item => !!item.rules && item.rules.length)
@@ -89,6 +107,7 @@ export function getValidateTriggers(validateRules) {
     .reduce((pre, curr) => pre.concat(curr), []);
 }
 
+// 判断表单项类型，获取表单数据，默认支持通过event.target.value或event.target.checked获取
 export function getValueFromEvent(e) {
   // To support custom element
   if (!e || !e.target) {
