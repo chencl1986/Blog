@@ -18,6 +18,8 @@ rc-form 源码解读 1 篇，已完结。
 
 如何成为有效学习的高手 8 篇，已完结。
 
+零碎的记录系列 更新中，已发布 1 篇。
+
 所思所想系列 更新中，已发布 8 篇。
 
 ## 专栏
@@ -126,6 +128,10 @@ rc-form 源码解读 1 篇，已完结。
 6. [如何成为有效学习的高手：6. 给自己制造反馈](https://github.com/chencl1986/Blog/issues/83)
 7. [如何成为有效学习的高手：7. 怎样突破学习瓶颈](https://github.com/chencl1986/Blog/issues/84)
 8. [如何成为有效学习的高手：8. 思维导图](https://github.com/chencl1986/Blog/issues/85)
+
+## 零碎的记录系列目录
+
+1. [解决火狐新窗口打开网页被拦截问题](https://github.com/chencl1986/Blog/issues/93)
 
 ## 所思所想系列目录
 
