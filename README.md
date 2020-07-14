@@ -2,6 +2,8 @@
 
 ## 进度
 
+LeetCode 题解系列 更新中，已发布 1 篇。
+
 Vue 入门系列 25 篇，已完结。
 
 微信小程序入门系列 4 篇，已完结。
@@ -25,6 +27,14 @@ rc-form 源码解读 1 篇，已完结。
 ## 专栏
 
 - [掘金主页](https://juejin.im/user/57c60e8d8ac24700635a02a7/posts)
+
+- [InfoQ 写作平台](https://www.infoq.cn/profile/1220486/publish)
+
+- [CSDN 博客](https://blog.csdn.net/chencl1986)
+
+## LeetCode 题解系列
+
+1. [LeetCode 题解：15. 三数之和，JavaScript 双循环+HashMap，详细注释](https://github.com/chencl1986/Blog/issues/97)
 
 ## Vue 入门系列目录
 
