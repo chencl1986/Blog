@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 3 篇。
+LeetCode 题解系列 更新中，已发布 4 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -37,6 +37,7 @@ rc-form 源码解读 1 篇，已完结。
 1. [LeetCode 题解：15. 三数之和，JavaScript 双循环+HashMap，详细注释](https://github.com/chencl1986/Blog/issues/97)
 2. [LeetCode题解：15. 三数之和，JavaScript双循环+双指针，详细注释](https://github.com/chencl1986/Blog/issues/98)
 3. [LeetCode题解：141. 环形链表，JavaScript HashMap，详细注释](https://github.com/chencl1986/Blog/issues/99)
+4. [LeetCode题解：141. 环形链表，JavaScript，快慢指针，详细注释](https://github.com/chencl1986/Blog/issues/101)
 
 ## Vue 入门系列目录
 
