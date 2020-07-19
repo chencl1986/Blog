@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 5 篇。
+LeetCode 题解系列 更新中，已发布 6 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -35,10 +35,11 @@ rc-form 源码解读 1 篇，已完结。
 ## LeetCode 题解系列
 
 1. [LeetCode 题解：15. 三数之和，JavaScript 双循环+HashMap，详细注释](https://github.com/chencl1986/Blog/issues/97)
-2. [LeetCode题解：15. 三数之和，JavaScript双循环+双指针，详细注释](https://github.com/chencl1986/Blog/issues/98)
-3. [LeetCode题解：141. 环形链表，JavaScript HashMap，详细注释](https://github.com/chencl1986/Blog/issues/99)
-4. [LeetCode题解：141. 环形链表，JavaScript，快慢指针，详细注释](https://github.com/chencl1986/Blog/issues/101)
-5. [LeetCode题解：1051. 高度检查器，JavaScript，桶排序，详细注释](https://github.com/chencl1986/Blog/issues/102)
+2. [LeetCode 题解：15. 三数之和，JavaScript 双循环+双指针，详细注释](https://github.com/chencl1986/Blog/issues/98)
+3. [LeetCode 题解：141. 环形链表，JavaScript HashMap，详细注释](https://github.com/chencl1986/Blog/issues/99)
+4. [LeetCode 题解：141. 环形链表，JavaScript，快慢指针，详细注释](https://github.com/chencl1986/Blog/issues/101)
+5. [LeetCode 题解：1051. 高度检查器，JavaScript，桶排序，详细注释](https://github.com/chencl1986/Blog/issues/102)
+6. [LeetCode 题解：1051. 高度检查器，JavaScript，先排序再比较，详细注释](https://github.com/chencl1986/Blog/issues/103)
 
 ## Vue 入门系列目录
 
