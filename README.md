@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 14 篇。
+LeetCode 题解系列 更新中，已发布 15 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -48,6 +48,7 @@ rc-form 源码解读 1 篇，已完结。
 12. [LeetCode题解： 206. 反转链表，JavaScript，容易理解的递归解释，附详细注释](https://github.com/chencl1986/Blog/issues/110)
 13. [LeetCode题解：142. 环形链表 II，JavaScript，HashMap，详细注释](https://github.com/chencl1986/Blog/issues/111)
 14. [LeetCode题解：142. 环形链表 II，JavaScript，快慢指针，详细注释](https://github.com/chencl1986/Blog/issues/112)
+15. [LeetCode题解：189. 旋转数组，JavaScript，暴力法，详细注释](https://github.com/chencl1986/Blog/issues/113)
 
 ## Vue 入门系列目录
 
