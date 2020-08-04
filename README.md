@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 18 篇。
+LeetCode 题解系列 更新中，已发布 19 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -45,13 +45,14 @@ rc-form 源码解读 1 篇，已完结。
 9. [LeetCode 题解：1. 两数之和，JavaScript，HashMap 单词遍历，详细注释](https://github.com/chencl1986/Blog/issues/106)
 10. [LeetCode 题解：1. 两数之和，JavaScript，双循环暴力解法，详细注释](https://github.com/chencl1986/Blog/issues/107)
 11. [LeetCode 题解：206. 反转链表，JavaScript，While 循环迭代，详细注释](https://github.com/chencl1986/Blog/issues/109)
-12. [LeetCode题解： 206. 反转链表，JavaScript，容易理解的递归解释，附详细注释](https://github.com/chencl1986/Blog/issues/110)
-13. [LeetCode题解：142. 环形链表 II，JavaScript，HashMap，详细注释](https://github.com/chencl1986/Blog/issues/111)
-14. [LeetCode题解：142. 环形链表 II，JavaScript，快慢指针，详细注释](https://github.com/chencl1986/Blog/issues/112)
-15. [LeetCode题解：189. 旋转数组，JavaScript，暴力法，详细注释](https://github.com/chencl1986/Blog/issues/113)
-16. [LeetCode题解：189. 旋转数组，pop+unshift一行，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/114)
-17. [LeetCode题解：189. 旋转数组，使用新数组Copy，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/115)
-18. [LeetCode题解：70. 爬楼梯，DP遍历，变量缓存结果，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/119)
+12. [LeetCode 题解： 206. 反转链表，JavaScript，容易理解的递归解释，附详细注释](https://github.com/chencl1986/Blog/issues/110)
+13. [LeetCode 题解：142. 环形链表 II，JavaScript，HashMap，详细注释](https://github.com/chencl1986/Blog/issues/111)
+14. [LeetCode 题解：142. 环形链表 II，JavaScript，快慢指针，详细注释](https://github.com/chencl1986/Blog/issues/112)
+15. [LeetCode 题解：189. 旋转数组，JavaScript，暴力法，详细注释](https://github.com/chencl1986/Blog/issues/113)
+16. [LeetCode 题解：189. 旋转数组，pop+unshift 一行，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/114)
+17. [LeetCode 题解：189. 旋转数组，使用新数组 Copy，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/115)
+18. [LeetCode 题解：70. 爬楼梯，DP 遍历，变量缓存结果，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/119)
+19. [LeetCode 题解：189. 旋转数组，3 次翻转，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/120)
 
 ## Vue 入门系列目录
 
