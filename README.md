@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 20 篇。
+LeetCode 题解系列 更新中，已发布 21 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -54,6 +54,7 @@ rc-form 源码解读 1 篇，已完结。
 18. [LeetCode 题解：70. 爬楼梯，DP 遍历，变量缓存结果，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/119)
 19. [LeetCode 题解：189. 旋转数组，3 次翻转，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/120)
 20. [LeetCode题解：189. 旋转数组，环状替换，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/121)
+21. [LeetCode题解：24. 两两交换链表中的节点，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/122)
 
 ## Vue 入门系列目录
 
