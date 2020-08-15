@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 26 篇。
+LeetCode 题解系列 更新中，已发布 27 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -56,10 +56,11 @@ rc-form 源码解读 1 篇，已完结。
 20. [LeetCode 题解：189. 旋转数组，环状替换，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/121)
 21. [LeetCode 题解：24. 两两交换链表中的节点，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/122)
 22. [LeetCode 题解：21. 合并两个有序链表，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/125)
-23. [LeetCode题解：21. 合并两个有序链表，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/126)
-24. [LeetCode题解：21. 合并两个有序链表，迭代（优化），JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/127)
-25. [LeetCode题解：88. 合并两个有序数组，双指针+从前往后+使用新数组Copy，JavaScript，详细注释](https://leetcode-cn.com/problems/merge-sorted-array/)
-26. [LeetCode题解：88. 合并两个有序数组，splice合并数组+sort排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/130)
+23. [LeetCode 题解：21. 合并两个有序链表，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/126)
+24. [LeetCode 题解：21. 合并两个有序链表，迭代（优化），JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/127)
+25. [LeetCode 题解：88. 合并两个有序数组，双指针+从前往后+使用新数组 Copy，JavaScript，详细注释](https://leetcode-cn.com/problems/merge-sorted-array/)
+26. [LeetCode 题解：88. 合并两个有序数组，splice 合并数组+sort 排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/130)
+27. [LeetCode 题解：88. 合并两个有序数组，双指针遍历+从前往后，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/131)
 
 ## Vue 入门系列目录
 
