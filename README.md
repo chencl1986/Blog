@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 28 篇。
+LeetCode 题解系列 更新中，已发布 29 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -62,6 +62,7 @@ rc-form 源码解读 1 篇，已完结。
 26. [LeetCode 题解：88. 合并两个有序数组，splice 合并数组+sort 排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/130)
 27. [LeetCode 题解：88. 合并两个有序数组，双指针遍历+从前往后，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/131)
 28. [LeetCode题解：88. 合并两个有序数组，双指针+从后往前，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/132)
+29. [LeetCode题解：66. 加一，新数组求和再翻转，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/133)
 
 ## Vue 入门系列目录
 
