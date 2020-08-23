@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 33 篇。
+LeetCode 题解系列 更新中，已发布 34 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -67,6 +67,7 @@ rc-form 源码解读 1 篇，已完结。
 31. [LeetCode题解：11. 盛最多水的容器，双循环暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/135)
 32. [LeetCode题解：11. 盛最多水的容器，while循环双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/136)
 33. [LeetCode题解：11. 盛最多水的容器，for循环双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/137)
+34. [LeetCode题解：25. K 个一组翻转链表，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/138)
 
 ## Vue 入门系列目录
 
