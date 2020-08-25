@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 35 篇。
+LeetCode 题解系列 更新中，已发布 36 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -61,14 +61,15 @@ rc-form 源码解读 1 篇，已完结。
 25. [LeetCode 题解：88. 合并两个有序数组，双指针+从前往后+使用新数组 Copy，JavaScript，详细注释](https://leetcode-cn.com/problems/merge-sorted-array/)
 26. [LeetCode 题解：88. 合并两个有序数组，splice 合并数组+sort 排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/130)
 27. [LeetCode 题解：88. 合并两个有序数组，双指针遍历+从前往后，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/131)
-28. [LeetCode题解：88. 合并两个有序数组，双指针+从后往前，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/132)
-29. [LeetCode题解：66. 加一，新数组求和再翻转，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/133)
-30. [LeetCode题解：66. 加一，倒序遍历+可中途退出，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/134)
-31. [LeetCode题解：11. 盛最多水的容器，双循环暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/135)
-32. [LeetCode题解：11. 盛最多水的容器，while循环双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/136)
-33. [LeetCode题解：11. 盛最多水的容器，for循环双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/137)
-34. [LeetCode题解：25. K 个一组翻转链表，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/138)
-35. [LeetCode题解：26. 删除排序数组中的重复项，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/139)
+28. [LeetCode 题解：88. 合并两个有序数组，双指针+从后往前，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/132)
+29. [LeetCode 题解：66. 加一，新数组求和再翻转，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/133)
+30. [LeetCode 题解：66. 加一，倒序遍历+可中途退出，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/134)
+31. [LeetCode 题解：11. 盛最多水的容器，双循环暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/135)
+32. [LeetCode 题解：11. 盛最多水的容器，while 循环双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/136)
+33. [LeetCode 题解：11. 盛最多水的容器，for 循环双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/137)
+34. [LeetCode 题解：25. K 个一组翻转链表，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/138)
+35. [LeetCode 题解：26. 删除排序数组中的重复项，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/139)
+36. [LeetCode 题解：20. 有效的括号，for 循环 replace，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/140)
 
 ## Vue 入门系列目录
 
