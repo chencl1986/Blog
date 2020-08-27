@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 36 篇。
+LeetCode 题解系列 更新中，已发布 38 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -70,6 +70,8 @@ rc-form 源码解读 1 篇，已完结。
 34. [LeetCode 题解：25. K 个一组翻转链表，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/138)
 35. [LeetCode 题解：26. 删除排序数组中的重复项，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/139)
 36. [LeetCode 题解：20. 有效的括号，for 循环 replace，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/140)
+37. [LeetCode 题解：20. 有效的括号，while 循环 replace，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/141)
+38. [LeetCode 题解：20. 有效的括号，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/142)
 
 ## Vue 入门系列目录
 
