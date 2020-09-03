@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 41 篇。
+LeetCode 题解系列 更新中，已发布 42 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -75,6 +75,7 @@ rc-form 源码解读 1 篇，已完结。
 39. [LeetCode题解：155.最小栈，辅助栈，官方解法，详细注释](https://github.com/chencl1986/Blog/issues/143)
 40. [LeetCode题解：155. 最小栈，单个栈同时存储最小值，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/145)
 41. [LeetCode题解：155. 最小栈，使用链表代替栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/147)
+42. [LeetCode题解：84. 柱状图中最大的矩形，双循环暴力，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/148)
 
 ## Vue 入门系列目录
 
