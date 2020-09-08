@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 45 篇。
+LeetCode 题解系列 更新中，已发布 46 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -79,6 +79,7 @@ rc-form 源码解读 1 篇，已完结。
 43. [LeetCode 题解：84. 柱状图中最大的矩形，循环+双指针暴力，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/149)
 44. [LeetCode题解：239. 滑动窗口最大值，双循环暴力，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/151)
 45. [LeetCode题解：225. 用队列实现栈，两个队列， 压入 - O(n)， 弹出 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/153)
+46. [LeetCode题解：225. 用队列实现栈，两个队列，压入 -O(1)， 弹出 -O(n)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/155)
 
 ## Vue 入门系列目录
 
