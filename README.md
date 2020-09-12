@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 47 篇。
+LeetCode 题解系列 更新中，已发布 50 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -81,6 +81,9 @@ rc-form 源码解读 1 篇，已完结。
 45. [LeetCode题解：225. 用队列实现栈，两个队列， 压入 - O(n)， 弹出 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/153)
 46. [LeetCode题解：225. 用队列实现栈，两个队列，压入 -O(1)， 弹出 -O(n)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/155)
 47. [LeetCode题解：225. 用队列实现栈，一个队列， 压入 - O(n)， 弹出 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/156)
+48. [LeetCode题解：232. 用栈实现队列，使用两个栈 入队 - O(1)， 出队 - O(n)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/158)
+49. [LeetCode题解：232. 用栈实现队列，使用两个栈 入队 - O(1)，出队 - 摊还复杂度 O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/159)
+50. [LeetCode题解：232. 用栈实现队列，使用两个栈 入队 - O(n)， 出队 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/160)
 
 ## Vue 入门系列目录
 
