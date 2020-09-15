@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 50 篇。
+LeetCode 题解系列 更新中，已发布 51 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -84,6 +84,7 @@ rc-form 源码解读 1 篇，已完结。
 48. [LeetCode题解：232. 用栈实现队列，使用两个栈 入队 - O(1)， 出队 - O(n)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/158)
 49. [LeetCode题解：232. 用栈实现队列，使用两个栈 入队 - O(1)，出队 - 摊还复杂度 O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/159)
 50. [LeetCode题解：232. 用栈实现队列，使用两个栈 入队 - O(n)， 出队 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/160)
+51. [LeetCode题解：206. 反转链表，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/162)
 
 ## Vue 入门系列目录
 
