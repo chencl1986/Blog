@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 51 篇。
+LeetCode 题解系列 更新中，已发布 52 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -77,14 +77,15 @@ rc-form 源码解读 1 篇，已完结。
 41. [LeetCode 题解：155. 最小栈，使用链表代替栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/147)
 42. [LeetCode 题解：84. 柱状图中最大的矩形，双循环暴力，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/148)
 43. [LeetCode 题解：84. 柱状图中最大的矩形，循环+双指针暴力，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/149)
-44. [LeetCode题解：239. 滑动窗口最大值，双循环暴力，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/151)
-45. [LeetCode题解：225. 用队列实现栈，两个队列， 压入 - O(n)， 弹出 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/153)
-46. [LeetCode题解：225. 用队列实现栈，两个队列，压入 -O(1)， 弹出 -O(n)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/155)
-47. [LeetCode题解：225. 用队列实现栈，一个队列， 压入 - O(n)， 弹出 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/156)
-48. [LeetCode题解：232. 用栈实现队列，使用两个栈 入队 - O(1)， 出队 - O(n)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/158)
-49. [LeetCode题解：232. 用栈实现队列，使用两个栈 入队 - O(1)，出队 - 摊还复杂度 O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/159)
-50. [LeetCode题解：232. 用栈实现队列，使用两个栈 入队 - O(n)， 出队 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/160)
-51. [LeetCode题解：206. 反转链表，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/162)
+44. [LeetCode 题解：239. 滑动窗口最大值，双循环暴力，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/151)
+45. [LeetCode 题解：225. 用队列实现栈，两个队列， 压入 - O(n)， 弹出 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/153)
+46. [LeetCode 题解：225. 用队列实现栈，两个队列，压入 -O(1)， 弹出 -O(n)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/155)
+47. [LeetCode 题解：225. 用队列实现栈，一个队列， 压入 - O(n)， 弹出 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/156)
+48. [LeetCode 题解：232. 用栈实现队列，使用两个栈 入队 - O(1)， 出队 - O(n)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/158)
+49. [LeetCode 题解：232. 用栈实现队列，使用两个栈 入队 - O(1)，出队 - 摊还复杂度 O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/159)
+50. [LeetCode 题解：232. 用栈实现队列，使用两个栈 入队 - O(n)， 出队 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/160)
+51. [LeetCode 题解：206. 反转链表，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/162)
+52. [LeetCode 题解：622. 设计循环队列，使用数组，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/163)
 
 ## Vue 入门系列目录
 
