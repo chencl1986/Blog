@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 52 篇。
+LeetCode 题解系列 更新中，已发布 55 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -87,6 +87,8 @@ rc-form 源码解读 1 篇，已完结。
 51. [LeetCode 题解：206. 反转链表，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/162)
 52. [LeetCode 题解：622. 设计循环队列，使用数组，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/163)
 53. [LeetCode题解：622. 设计循环队列，使用双向链表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/164)
+54. [LeetCode题解：84. 柱状图中最大的矩形，使用栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/165)
+55. [LeetCode题解：66. 加一，BigInt，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/166)
 
 ## Vue 入门系列目录
 
