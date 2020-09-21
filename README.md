@@ -90,6 +90,7 @@ rc-form 源码解读 1 篇，已完结。
 54. [LeetCode题解：84. 柱状图中最大的矩形，使用栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/165)
 55. [LeetCode题解：66. 加一，BigInt，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/166)
 56. [LeetCode题解：94. 二叉树的中序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/167)
+57. [LeetCode题解：144. 二叉树的前序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/168)
 
 ## Vue 入门系列目录
 
