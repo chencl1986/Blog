@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 60 篇。
+LeetCode 题解系列 更新中，已发布 61 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -94,6 +94,7 @@ rc-form 源码解读 1 篇，已完结。
 58. [LeetCode题解：83. 删除排序链表中的重复元素，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/170)
 59. [LeetCode题解：83. 删除排序链表中的重复元素，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/171)
 60. [LeetCode题解：589. N叉树的前序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/173)
+61. [LeetCode题解：641. 设计循环双端队列，使用队列，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/174)
 
 ## Vue 入门系列目录
 
