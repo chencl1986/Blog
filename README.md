@@ -99,6 +99,7 @@ rc-form 源码解读 1 篇，已完结。
 63. [LeetCode题解：242. 有效的字母异位词，数组排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/176)
 64. [LeetCode题解：242. 有效的字母异位词，哈希表一次循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/177)
 65. [LeetCode题解：242. 有效的字母异位词，哈希表两次循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/178)
+66. [LeetCode题解：242. 有效的字母异位词，数组计数，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/179)
 
 ## Vue 入门系列目录
 
