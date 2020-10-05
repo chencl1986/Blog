@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 61 篇。
+LeetCode 题解系列 更新中，已发布 68 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -101,6 +101,7 @@ rc-form 源码解读 1 篇，已完结。
 65. [LeetCode题解：242. 有效的字母异位词，哈希表两次循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/178)
 66. [LeetCode题解：242. 有效的字母异位词，数组计数，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/179)
 67. [LeetCode题解：49. 字母异位词分组，数组排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/180)
+68. [LeetCode题解：49. 字母异位词分组，数组计数+哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/181)
 
 ## Vue 入门系列目录
 
