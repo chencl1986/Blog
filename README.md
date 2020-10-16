@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 73 篇。
+LeetCode 题解系列 更新中，已发布 75 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -107,6 +107,8 @@ rc-form 源码解读 1 篇，已完结。
 71. [LeetCode题解：111. 二叉树的最小深度，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/185)
 72. [LeetCode题解：144. 二叉树的前序遍历，使用栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/187)
 73. [LeetCode题解：83. 删除排序链表中的重复元素，HashMap，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/189)
+74. [LeetCode题解：589. N叉树的前序遍历，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/191)
+75. [LeetCode题解：590. N叉树的后序遍历，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/192)
 
 ## Vue 入门系列目录
 
