@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 75 篇。
+LeetCode 题解系列 更新中，已发布 76 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -86,29 +86,30 @@ rc-form 源码解读 1 篇，已完结。
 50. [LeetCode 题解：232. 用栈实现队列，使用两个栈 入队 - O(n)， 出队 - O(1)，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/160)
 51. [LeetCode 题解：206. 反转链表，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/162)
 52. [LeetCode 题解：622. 设计循环队列，使用数组，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/163)
-53. [LeetCode题解：622. 设计循环队列，使用双向链表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/164)
-54. [LeetCode题解：84. 柱状图中最大的矩形，使用栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/165)
-55. [LeetCode题解：66. 加一，BigInt，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/166)
-56. [LeetCode题解：94. 二叉树的中序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/167)
-57. [LeetCode题解：144. 二叉树的前序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/168)
-58. [LeetCode题解：83. 删除排序链表中的重复元素，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/170)
-59. [LeetCode题解：83. 删除排序链表中的重复元素，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/171)
-60. [LeetCode题解：589. N叉树的前序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/173)
-61. [LeetCode题解：641. 设计循环双端队列，使用队列，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/174)
-62. [LeetCode题解：641. 设计循环双端队列，使用双向链表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/175)
-63. [LeetCode题解：242. 有效的字母异位词，数组排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/176)
-64. [LeetCode题解：242. 有效的字母异位词，哈希表一次循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/177)
-65. [LeetCode题解：242. 有效的字母异位词，哈希表两次循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/178)
-66. [LeetCode题解：242. 有效的字母异位词，数组计数，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/179)
-67. [LeetCode题解：49. 字母异位词分组，数组排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/180)
-68. [LeetCode题解：49. 字母异位词分组，数组计数+哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/181)
-69. [LeetCode题解：102. 二叉树的层序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/182)
-70. [LeetCode题解：226. 翻转二叉树，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/184)
-71. [LeetCode题解：111. 二叉树的最小深度，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/185)
-72. [LeetCode题解：144. 二叉树的前序遍历，使用栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/187)
-73. [LeetCode题解：83. 删除排序链表中的重复元素，HashMap，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/189)
-74. [LeetCode题解：589. N叉树的前序遍历，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/191)
-75. [LeetCode题解：590. N叉树的后序遍历，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/192)
+53. [LeetCode 题解：622. 设计循环队列，使用双向链表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/164)
+54. [LeetCode 题解：84. 柱状图中最大的矩形，使用栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/165)
+55. [LeetCode 题解：66. 加一，BigInt，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/166)
+56. [LeetCode 题解：94. 二叉树的中序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/167)
+57. [LeetCode 题解：144. 二叉树的前序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/168)
+58. [LeetCode 题解：83. 删除排序链表中的重复元素，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/170)
+59. [LeetCode 题解：83. 删除排序链表中的重复元素，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/171)
+60. [LeetCode 题解：589. N 叉树的前序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/173)
+61. [LeetCode 题解：641. 设计循环双端队列，使用队列，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/174)
+62. [LeetCode 题解：641. 设计循环双端队列，使用双向链表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/175)
+63. [LeetCode 题解：242. 有效的字母异位词，数组排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/176)
+64. [LeetCode 题解：242. 有效的字母异位词，哈希表一次循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/177)
+65. [LeetCode 题解：242. 有效的字母异位词，哈希表两次循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/178)
+66. [LeetCode 题解：242. 有效的字母异位词，数组计数，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/179)
+67. [LeetCode 题解：49. 字母异位词分组，数组排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/180)
+68. [LeetCode 题解：49. 字母异位词分组，数组计数+哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/181)
+69. [LeetCode 题解：102. 二叉树的层序遍历，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/182)
+70. [LeetCode 题解：226. 翻转二叉树，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/184)
+71. [LeetCode 题解：111. 二叉树的最小深度，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/185)
+72. [LeetCode 题解：144. 二叉树的前序遍历，使用栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/187)
+73. [LeetCode 题解：83. 删除排序链表中的重复元素，HashMap，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/189)
+74. [LeetCode 题解：589. N 叉树的前序遍历，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/191)
+75. [LeetCode 题解：590. N 叉树的后序遍历，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/192)
+76. [LeetCode 题解：22. 括号生成，递归先生成再过滤，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/193)
 
 ## Vue 入门系列目录
 
