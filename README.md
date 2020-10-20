@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 78 篇。
+LeetCode 题解系列 更新中，已发布 79 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -112,6 +112,7 @@ rc-form 源码解读 1 篇，已完结。
 76. [LeetCode 题解：22. 括号生成，递归先生成再过滤，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/193)
 77. [LeetCode题解：22. 括号生成，递归生成同时过滤，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/194)
 78. [LeetCode题解：98. 验证二叉搜索树，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/195)
+79. [LeetCode题解：98. 验证二叉搜索树，使用栈中序遍历，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/196)
 
 ## Vue 入门系列目录
 
