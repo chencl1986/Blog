@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 81 篇。
+LeetCode 题解系列 更新中，已发布 83 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -115,6 +115,8 @@ rc-form 源码解读 1 篇，已完结。
 79. [LeetCode题解：98. 验证二叉搜索树，使用栈中序遍历，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/196)
 80. [LeetCode题解：98. 验证二叉搜索树，递归中序遍历完成后再判断，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/197)
 81. [LeetCode题解：50. Pow(x, n)，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/199)
+82. [LeetCode题解：50. Pow(x, n)，递归分治，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/200)
+83. [LeetCode题解：50. Pow(x, n)，迭代分治，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/201)
 
 ## Vue 入门系列目录
 
