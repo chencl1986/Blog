@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 93 篇。
+LeetCode 题解系列 更新中，已发布 95 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -127,6 +127,8 @@ rc-form 源码解读 1 篇，已完结。
 91. [LeetCode题解：90. 子集 II，递归+for循环+回溯，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/209)
 92. [LeetCode题解：90. 子集 II，迭代+位运算，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/211)
 93. [LeetCode题解：90. 子集 II，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/212)
+94. [LeetCode题解：231. 2的幂，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/213)
+95. [LeetCode题解：231. 2的幂，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/214)
 
 ## Vue 入门系列目录
 
