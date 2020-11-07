@@ -129,6 +129,7 @@ rc-form 源码解读 1 篇，已完结。
 93. [LeetCode题解：90. 子集 II，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/212)
 94. [LeetCode题解：231. 2的幂，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/213)
 95. [LeetCode题解：231. 2的幂，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/214)
+96. [LeetCode题解：231. 2的幂，位运算取二进制中最右边的1，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/215)
 
 ## Vue 入门系列目录
 
