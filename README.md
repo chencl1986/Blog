@@ -132,6 +132,7 @@ rc-form 源码解读 1 篇，已完结。
 96. [LeetCode题解：231. 2的幂，位运算取二进制中最右边的1，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/215)
 97. [LeetCode题解：77. 组合，回溯+for循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/216)
 98. [LeetCode题解：77. 组合，递归回溯，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/217)
+99. [LeetCode题解：剑指 Offer 22. 链表中倒数第k个节点，使用数组，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/218)
 
 ## Vue 入门系列目录
 
