@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 106 篇。
+LeetCode 题解系列 更新中，已发布 107 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -140,6 +140,7 @@ rc-form 源码解读 1 篇，已完结。
 104. [LeetCode题解：169. 多数元素，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/222)
 105. [LeetCode题解：169. 多数元素，排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/223)
 106. [LeetCode题解：169. 多数元素，分治，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/224)
+107. [LeetCode题解：17. 电话号码的字母组合，队列，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/226)
 
 ## Vue 入门系列目录
 
