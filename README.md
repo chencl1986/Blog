@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 108 篇。
+LeetCode 题解系列 更新中，已发布 109 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -142,6 +142,7 @@ rc-form 源码解读 1 篇，已完结。
 106. [LeetCode题解：169. 多数元素，分治，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/224)
 107. [LeetCode题解：17. 电话号码的字母组合，队列，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/226)
 108. [LeetCode题解：860. 柠檬水找零，模拟情境，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/227)
+109. [LeetCode题解：121. 买卖股票的最佳时机，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/229)
 
 ## Vue 入门系列目录
 
