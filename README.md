@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 111 篇。
+LeetCode 题解系列 更新中，已发布 113 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -145,6 +145,8 @@ rc-form 源码解读 1 篇，已完结。
 109. [LeetCode题解：121. 买卖股票的最佳时机，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/229)
 110. [LeetCode题解：455. 分发饼干，贪心for循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/230)
 111. [LeetCode题解：455. 分发饼干，贪心while循环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/231)
+112. [LeetCode题解：51. N 皇后，回溯+哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/232)
+113. [LeetCode题解：52. N皇后 II，回溯+哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/233)
 
 ## Vue 入门系列目录
 
