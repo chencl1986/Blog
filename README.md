@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 119 篇。
+LeetCode 题解系列 更新中，已发布 120 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -153,6 +153,7 @@ rc-form 源码解读 1 篇，已完结。
 117. [LeetCode题解：45. 跳跃游戏 II，贪心从后向前，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/237)
 118. [LeetCode题解：102. 二叉树的层序遍历，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/238)
 119. [LeetCode题解：515. 在每个树行中找最大值，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/239)
+120. [LeetCode题解：515. 在每个树行中找最大值，DFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/240)
 
 ## Vue 入门系列目录
 
