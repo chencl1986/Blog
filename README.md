@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 123 篇。
+LeetCode 题解系列 更新中，已发布 124 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -157,6 +157,7 @@ rc-form 源码解读 1 篇，已完结。
 121. [LeetCode题解：22. 括号生成，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/243)
 122. [LeetCode题解：433. 最小基因变化，DFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/244)
 123. [LeetCode题解：433. 最小基因变化，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/245)
+124. [LeetCode题解：429. N叉树的层序遍历，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/246)
 
 ## Vue 入门系列目录
 
