@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 148 篇。
+LeetCode 题解系列 更新中，已发布 149 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -182,6 +182,7 @@ rc-form 源码解读 1 篇，已完结。
 146. [LeetCode 题解：55. 跳跃游戏，贪心，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/253)
 147. [LeetCode题解：42. 接雨水，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/255)
 148. [LeetCode题解：42. 接雨水，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/256)
+149. [LeetCode题解：42. 接雨水，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/257)
 
 ## Vue 入门系列目录
 
