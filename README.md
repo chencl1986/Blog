@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 153 篇。
+LeetCode 题解系列 更新中，已发布 156 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -187,6 +187,9 @@ rc-form 源码解读 1 篇，已完结。
 151. [LeetCode题解：剑指 Offer 40. 最小的k个数，sort，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/259)
 152. [LeetCode题解：剑指 Offer 40. 最小的k个数，快速排序，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/260)
 153. [LeetCode题解：剑指 Offer 40. 最小的k个数，二叉堆，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/261)
+154. [LeetCode题解：239. 滑动窗口最大值，二叉堆，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/262)
+155. [LeetCode题解：347. 前 K 个高频元素，二叉堆，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/263)
+156. [LeetCode题解：264. 丑数 II，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/264)
 
 ## Vue 入门系列目录
 
