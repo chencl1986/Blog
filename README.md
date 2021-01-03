@@ -190,6 +190,7 @@ rc-form 源码解读 1 篇，已完结。
 154. [LeetCode题解：239. 滑动窗口最大值，二叉堆，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/262)
 155. [LeetCode题解：347. 前 K 个高频元素，二叉堆，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/263)
 156. [LeetCode题解：264. 丑数 II，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/264)
+157. [LeetCode题解：264. 丑数 II，二叉堆，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/265)
 
 ## Vue 入门系列目录
 
