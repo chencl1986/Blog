@@ -77,7 +77,7 @@ rc-form 源码解读 1 篇，已完结。
 41. [LeetCode 题解：20. 有效的括号，for 循环 replace，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/140)
 42. [LeetCode 题解：20. 有效的括号，while 循环 replace，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/141)
 43. [LeetCode 题解：20. 有效的括号，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/142)
-44. [LeetCode 题解：155.最小栈，辅助栈，官方解法，详细注释](https://github.com/chencl1986/Blog/issues/143)
+44. [LeetCode题解：155.最小栈，使用两个栈，详细注释](https://github.com/chencl1986/Blog/issues/143)
 45. [LeetCode 题解：155. 最小栈，单个栈+对象存储，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/144)
 46. [LeetCode 题解：155. 最小栈，单个栈同时存储最小值，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/145)
 47. [LeetCode 题解：155. 最小栈，单个栈存储入栈元素与最小值之差，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/146)
