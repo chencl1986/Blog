@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 163 篇。
+LeetCode 题解系列 更新中，已发布 164 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -197,6 +197,7 @@ rc-form 源码解读 1 篇，已完结。
 161. [LeetCode 题解：111. 二叉树的最小深度，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/269)
 162. [LeetCode 题解：17. 电话号码的字母组合，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/270)
 163. [LeetCode 题解：236. 二叉树的最近公共祖先，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/271)
+164. [LeetCode题解：236. 二叉树的最近公共祖先，存储父节点，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/272)
 
 ## Vue 入门系列目录
 
