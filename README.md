@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 169 篇。
+LeetCode 题解系列 更新中，已发布 170 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -203,6 +203,7 @@ rc-form 源码解读 1 篇，已完结。
 167. [LeetCode 题解：105. 从前序与中序遍历序列构造二叉树，递归+哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/275)
 168. [LeetCode题解：105. 从前序与中序遍历序列构造二叉树，Simple O(n) without map，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/276)
 169. [LeetCode题解：389. 找不同，ASCII码求和，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/277)
+170. [LeetCode题解：389. 找不同，位运算，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/278)
 
 ## Vue 入门系列目录
 
