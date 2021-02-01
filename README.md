@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 173 篇。
+LeetCode 题解系列 更新中，已发布 174 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -207,6 +207,7 @@ rc-form 源码解读 1 篇，已完结。
 171. [LeetCode 题解：200. 岛屿数量，DFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/279)
 172. [LeetCode 题解：433. 最小基因变化，BFS+生成所有可能新基因再匹配，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/280)
 173. [LeetCode 题解：433. 最小基因变化，双向 BFS（beats 99%），JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/281)
+174. [LeetCode 题解：69. x 的平方根，二分查找，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/282)
 
 ## Vue 入门系列目录
 
