@@ -208,6 +208,7 @@ rc-form 源码解读 1 篇，已完结。
 172. [LeetCode 题解：433. 最小基因变化，BFS+生成所有可能新基因再匹配，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/280)
 173. [LeetCode 题解：433. 最小基因变化，双向 BFS（beats 99%），JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/281)
 174. [LeetCode 题解：69. x 的平方根，二分查找，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/282)
+175. [LeetCode题解：69. x 的平方根，牛顿迭代法+迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/283)
 
 ## Vue 入门系列目录
 
