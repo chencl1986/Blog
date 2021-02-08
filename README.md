@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 178 篇。
+LeetCode 题解系列 更新中，已发布 180 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -212,6 +212,8 @@ rc-form 源码解读 1 篇，已完结。
 176. [LeetCode题解：69. x 的平方根，牛顿迭代法+递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/284)
 177. [LeetCode题解：529. 扫雷游戏，DFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/285)
 178. [LeetCode题解：529. 扫雷游戏，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/286)
+179. [LeetCode题解：33. 搜索旋转排序数组，二分查找，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/287)
+180. [LeetCode题解：74. 搜索二维矩阵，二分查找，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/288)
 
 ## Vue 入门系列目录
 
