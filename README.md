@@ -214,6 +214,7 @@ rc-form 源码解读 1 篇，已完结。
 178. [LeetCode题解：529. 扫雷游戏，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/286)
 179. [LeetCode题解：33. 搜索旋转排序数组，二分查找，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/287)
 180. [LeetCode题解：74. 搜索二维矩阵，二分查找，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/288)
+181. [LeetCode题解：153. 寻找旋转排序数组中的最小值，二分查找，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/289)
 
 ## Vue 入门系列目录
 
