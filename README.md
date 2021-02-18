@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 185 篇。
+LeetCode 题解系列 更新中，已发布 186 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -219,6 +219,7 @@ rc-form 源码解读 1 篇，已完结。
 183. [LeetCode 题解：297. 二叉树的序列化与反序列化，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/291)
 184. [LeetCode 题解：62. 不同路径，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/292)
 185. [LeetCode题解：1091. 二进制矩阵中的最短路径，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/293)
+186. [LeetCode题解：63. 不同路径 II，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/294)
 
 ## Vue 入门系列目录
 
