@@ -231,6 +231,8 @@ rc-form 源码解读 1 篇，已完结。
 193. [LeetCode题解：718. 最长重复子数组，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/301)
 194. [LeetCode题解：120. 三角形最小路径和，动态规划（从上到下），JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/302)
 195. [LeetCode题解：121. 买卖股票的最佳时机，JavaScript，动态规划，详细注释](https://github.com/chencl1986/Blog/issues/303)
+196. [LeetCode题解：122. 买卖股票的最佳时机 II，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/304)
+197. [LeetCode题解：123. 买卖股票的最佳时机 III，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/306)
 
 ## Vue 入门系列目录
 
