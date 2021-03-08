@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 203 篇。
+LeetCode 题解系列 更新中，已发布 204 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -239,6 +239,7 @@ rc-form 源码解读 1 篇，已完结。
 201. [LeetCode题解：309. 最佳买卖股票时机含冷冻期，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/310)
 202. [LeetCode题解：714. 买卖股票的最佳时机含手续费，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/311)
 203. [LeetCode题解：279. 完全平方数，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/312)
+204. [LeetCode题解：518. 零钱兑换 II，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/313)
 
 ## Vue 入门系列目录
 
