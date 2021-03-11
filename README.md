@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 206 篇。
+LeetCode 题解系列 更新中，已发布 207 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -242,6 +242,7 @@ rc-form 源码解读 1 篇，已完结。
 204. [LeetCode题解：518. 零钱兑换 II，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/313)
 205. [LeetCode题解：125. 验证回文串，翻转数组，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/314)
 206. [LeetCode题解：125. 验证回文串，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/316)
+207. [LeetCode题解：64. 最小路径和，动态规划，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/317)
 
 ## Vue 入门系列目录
 
