@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 214 篇。
+LeetCode 题解系列 更新中，已发布 216 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -250,6 +250,8 @@ rc-form 源码解读 1 篇，已完结。
 212. [LeetCode题解：213. 打家劫舍 II，动态规划（不缓存偷盗状态），JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/322)
 213. [LeetCode题解：198. 打家劫舍，动态规划（不缓存偷盗状态），JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/323)
 214. [LeetCode题解：126. 单词接龙 II，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/324)
+215. [LeetCode题解：92. 反转链表 II，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/325)
+216. [LeetCode题解：剑指 Offer 49. 丑数，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/326)
 
 ## Vue 入门系列目录
 
