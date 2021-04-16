@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 216 篇。
+LeetCode 题解系列 更新中，已发布 219 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -252,6 +252,9 @@ rc-form 源码解读 1 篇，已完结。
 214. [LeetCode题解：126. 单词接龙 II，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/324)
 215. [LeetCode题解：92. 反转链表 II，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/325)
 216. [LeetCode题解：剑指 Offer 49. 丑数，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/326)
+217. [LeetCode题解：剑指 Offer 49. 丑数，二叉堆，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/328)
+218. [LeetCode题解：剑指 Offer 49. 丑数，三指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/329)
+219. [LeetCode题解：17. 电话号码的字母组合，回溯，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/330)
 
 ## Vue 入门系列目录
 
