@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 227 篇。
+LeetCode 题解系列 更新中，已发布 229 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -263,6 +263,8 @@ rc-form 源码解读 1 篇，已完结。
 225. [LeetCode题解：191. 位1的个数，位运算，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/336)
 226. [LeetCode题解：150. 逆波兰表达式求值，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/338)
 227. [LeetCode题解：341. 扁平化嵌套列表迭代器，DFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/347)
+228. [LeetCode题解：456. 132 模式，n平方暴力，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/350)
+229. [LeetCode题解：61. 旋转链表，闭合为环，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/351)
 
 ## Vue 入门系列目录
 
