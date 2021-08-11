@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 232 篇。
+LeetCode 题解系列 更新中，已发布 233 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -268,6 +268,7 @@ rc-form 源码解读 1 篇，已完结。
 230. [LeetCode题解：61. 旋转链表，双指针，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/354)
 231. [LeetCode题解：173. 二叉搜索树迭代器，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/355)
 232. [LeetCode题解：173. 二叉搜索树迭代器，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/357)
+233. [LeetCode题解：80. 删除有序数组中的重复项 II，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/360)
 
 ## Vue 入门系列目录
 
