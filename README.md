@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 236 篇。
+LeetCode 题解系列 更新中，已发布 237 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -44,7 +44,7 @@ rc-form 源码解读 1 篇，已完结。
 6. [LeetCode 题解：1051. 高度检查器，JavaScript，先排序再比较，详细注释](https://github.com/chencl1986/Blog/issues/103)
 7. [LeetCode 题解：122. 买卖股票的最佳时机 II，JavaScript，一遍循环，详细注释](https://github.com/chencl1986/Blog/issues/104)
 8. [LeetCode 题解：283. 移动零，JavaScript，一次遍历，详细注释](https://github.com/chencl1986/Blog/issues/105)
-9. [LeetCode 题解：1. 两数之和，JavaScript，HashMap 单词遍历，详细注释](https://github.com/chencl1986/Blog/issues/106)
+9. [LeetCode 题解：1. 两数之和，JavaScript，HashMap，详细注释](https://github.com/chencl1986/Blog/issues/106)
 10. [LeetCode 题解：1. 两数之和，JavaScript，双循环暴力解法，详细注释](https://github.com/chencl1986/Blog/issues/107)
 11. [LeetCode 题解：206. 反转链表，JavaScript，While 循环迭代，详细注释](https://github.com/chencl1986/Blog/issues/109)
 12. [LeetCode 题解： 206. 反转链表，JavaScript，容易理解的递归解释，附详细注释](https://github.com/chencl1986/Blog/issues/110)
@@ -272,6 +272,7 @@ rc-form 源码解读 1 篇，已完结。
 234. [LeetCode题解：781. 森林中的兔子，贪心，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/362)
 235. [LeetCode题解：783. 二叉搜索树节点最小距离，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/363)
 236. [LeetCode题解：208. 实现 Trie (前缀树)，对象，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/364)
+237. [LeetCode题解：220. 存在重复元素 III，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/365)
 
 ## Vue 入门系列目录
 
