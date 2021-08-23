@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 240 篇。
+LeetCode 题解系列 更新中，已发布 242 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -276,6 +276,8 @@ rc-form 源码解读 1 篇，已完结。
 238. [LeetCode题解：217. 存在重复元素，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/366)
 239. [LeetCode题解：219. 存在重复元素 II，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/367)
 240. [LeetCode题解：27. 移除元素，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/368)
+241. [LeetCode题解：2. 两数相加，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/369)
+242. [LeetCode题解：28. 实现 strStr()，暴力法，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/370)
 
 ## Vue 入门系列目录
 
