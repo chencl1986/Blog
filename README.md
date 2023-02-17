@@ -284,6 +284,7 @@ rc-form 源码解读 1 篇，已完结。
 246. [LeetCode题解：783. 二叉搜索树节点最小距离，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/391)
 247. [LeetCode题解：938. 二叉搜索树的范围和，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/392)
 248. [LeetCode题解：938. 二叉搜索树的范围和，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/393)
+249. [LeetCode题解：938. 二叉搜索树的范围和，DFS，详细注释](https://github.com/chencl1986/Blog/issues/395)
 
 ## Vue 入门系列目录
 
@@ -312,6 +313,9 @@ rc-form 源码解读 1 篇，已完结。
 23. [Vue 教程 22：mapState、mapActions、mapGetters](https://github.com/chencl1986/Blog/issues/23)
 24. [Vue 教程 23：Vuex 异步 Action](https://github.com/chencl1986/Blog/issues/24)
 25. [Vue 教程 24：Vuex Modules（完结）](https://github.com/chencl1986/Blog/issues/25)
+
+## 每日一个小知识
+1. [【立哥】【每日一个小知识】写遗嘱把部分财产赠给第三者，遗嘱有效力吗？](https://github.com/chencl1986/Blog/issues/394)
 
 ## React Native 入门系列目录
 
