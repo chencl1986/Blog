@@ -2,7 +2,7 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 248 篇。
+LeetCode 题解系列 更新中，已发布 252 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -285,6 +285,13 @@ rc-form 源码解读 1 篇，已完结。
 247. [LeetCode题解：938. 二叉搜索树的范围和，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/392)
 248. [LeetCode题解：938. 二叉搜索树的范围和，栈，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/393)
 249. [LeetCode题解：938. 二叉搜索树的范围和，DFS，详细注释](https://github.com/chencl1986/Blog/issues/395)
+250. [LeetCode题解：1237. 找出给定方程的正整数解，枚举，详细注释](https://github.com/chencl1986/Blog/issues/396)
+251. [LeetCode题解：1237. 找出给定方程的正整数解，二分查找，详细注释](https://github.com/chencl1986/Blog/issues/397)
+252. [LeetCode题解：1237. 找出给定方程的正整数解，双指针，详细注释](https://github.com/chencl1986/Blog/issues/398)
+
+## 每日一个小知识
+1. [【立哥】【每日一个小知识】写遗嘱把部分财产赠给第三者，遗嘱有效力吗？](https://github.com/chencl1986/Blog/issues/394)
+2. [【立哥】【每日一个小知识】企业家和管理者有什么区别？](https://github.com/chencl1986/Blog/issues/399)
 
 ## Vue 入门系列目录
 
@@ -313,9 +320,6 @@ rc-form 源码解读 1 篇，已完结。
 23. [Vue 教程 22：mapState、mapActions、mapGetters](https://github.com/chencl1986/Blog/issues/23)
 24. [Vue 教程 23：Vuex 异步 Action](https://github.com/chencl1986/Blog/issues/24)
 25. [Vue 教程 24：Vuex Modules（完结）](https://github.com/chencl1986/Blog/issues/25)
-
-## 每日一个小知识
-1. [【立哥】【每日一个小知识】写遗嘱把部分财产赠给第三者，遗嘱有效力吗？](https://github.com/chencl1986/Blog/issues/394)
 
 ## React Native 入门系列目录
 
