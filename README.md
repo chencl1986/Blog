@@ -2,7 +2,9 @@
 
 ## 进度
 
-LeetCode 题解系列 更新中，已发布 252 篇。
+Vue3 探秘系列 更新中，已发布 1 篇。
+
+LeetCode 题解系列 更新中，已发布 266 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -33,6 +35,9 @@ rc-form 源码解读 1 篇，已完结。
 - [InfoQ 写作平台](https://www.infoq.cn/profile/1220486/publish)
 
 - [CSDN 博客](https://blog.csdn.net/chencl1986)
+
+# Vue3探秘
+1. [为什么从 props 中解构变量之后再watch它，无法检测到它的变化？](https://github.com/chencl1986/Blog/issues/418)
 
 ## LeetCode 题解系列
 
@@ -288,6 +293,20 @@ rc-form 源码解读 1 篇，已完结。
 250. [LeetCode题解：1237. 找出给定方程的正整数解，枚举，详细注释](https://github.com/chencl1986/Blog/issues/396)
 251. [LeetCode题解：1237. 找出给定方程的正整数解，二分查找，详细注释](https://github.com/chencl1986/Blog/issues/397)
 252. [LeetCode题解：1237. 找出给定方程的正整数解，双指针，详细注释](https://github.com/chencl1986/Blog/issues/398)
+253. [LeetCode：240. 搜索二维矩阵 II，直接查找，详细注释](https://github.com/chencl1986/Blog/issues/400)
+254. [LeetCode：240. 搜索二维矩阵 II，二分查找，详细注释](https://github.com/chencl1986/Blog/issues/402)
+255. [LeetCode题解：2347. 最好的扑克手牌，哈希表，详细注释](https://github.com/chencl1986/Blog/issues/403)
+256. [LeetCode题解：938. 二叉搜索树的范围和，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/404)
+257. [LeetCode题解：633. 平方数之和，枚举，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/406)
+258. [LeetCode题解：2357. 使数组中所有元素都等于零，排序，详细注释](https://github.com/chencl1986/Blog/issues/408)
+259. [LeetCode题解：2357. 使数组中所有元素都等于零，哈希表，详细注释](https://github.com/chencl1986/Blog/issues/409)
+260. [LeetCode题解：1238. 循环码排列，归纳法，详细注释](https://github.com/chencl1986/Blog/issues/410)
+261. [LeetCode题解：2363. 合并相似的物品，双指针，详细注释](https://github.com/chencl1986/Blog/issues/412)
+262. [LeetCode题解：2363. 合并相似的物品，哈希表，详细注释](https://github.com/chencl1986/Blog/issues/413)
+263. [LeetCode题解：2373. 矩阵中的局部最大值，遍历，详细注释](https://github.com/chencl1986/Blog/issues/414)
+264. [LeetCode题解：137. 只出现一次的数字 II，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/415)
+265. [LeetCode题解：137. 只出现一次的数字 II，排序后搜索，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/416)
+266. [LeetCode题解：136. 只出现一次的数字，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/417)
 
 ## 每日一个小知识
 1. [【立哥】【每日一个小知识】写遗嘱把部分财产赠给第三者，遗嘱有效力吗？](https://github.com/chencl1986/Blog/issues/394)
