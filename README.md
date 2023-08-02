@@ -2,9 +2,11 @@
 
 ## 进度
 
+JavaScript探秘系列 更新中，已发布 5 篇。
+
 Vue3 探秘系列 更新中，已发布 1 篇。
 
-LeetCode 题解系列 更新中，已发布 266 篇。
+LeetCode 题解系列 更新中，已发布 273 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -35,6 +37,13 @@ rc-form 源码解读 1 篇，已完结。
 - [InfoQ 写作平台](https://www.infoq.cn/profile/1220486/publish)
 
 - [CSDN 博客](https://blog.csdn.net/chencl1986)
+
+# JavaScript探秘
+1. [JavaScript 对象遍历为什么要使用 hasOwnProperty 检查属性](https://github.com/chencl1986/Blog/issues/419)
+2. [深入理解shims-vue.d.ts和declare module](https://github.com/chencl1986/Blog/issues/421)
+3. [深入理解 TypeScript 的 type 以及 type 与 interface 和 class 的区别](https://github.com/chencl1986/Blog/issues/422)
+4. [虚拟模块在前端开发中的应用与示例](https://github.com/chencl1986/Blog/issues/423)
+5. [理解并实现自动导入（Auto Import）功能的原理](https://github.com/chencl1986/Blog/issues/424)
 
 # Vue3探秘
 1. [为什么从 props 中解构变量之后再watch它，无法检测到它的变化？](https://github.com/chencl1986/Blog/issues/418)
@@ -307,6 +316,13 @@ rc-form 源码解读 1 篇，已完结。
 264. [LeetCode题解：137. 只出现一次的数字 II，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/415)
 265. [LeetCode题解：137. 只出现一次的数字 II，排序后搜索，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/416)
 266. [LeetCode题解：136. 只出现一次的数字，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/417)
+267. [LeetCode题解：136. 只出现一次的数字，排序后搜索，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/425)
+268. [LeetCode 2648. 生成斐波那契数列，迭代+递归，超详细解析](https://github.com/chencl1986/Blog/issues/426)
+269. [LeetCode：2665. 计数器 II，闭包详解](https://github.com/chencl1986/Blog/issues/427)
+270. [LeetCode：2695. 包装数组，详细解释](https://github.com/chencl1986/Blog/issues/428)
+271. [LeetCode题解：2618. 检查是否是类的对象实例，使用instanceof](https://github.com/chencl1986/Blog/issues/430)
+272. [LeetCode题解：2618. 检查是否是类的对象实例，迭代和递归](https://github.com/chencl1986/Blog/issues/431)
+273. [LeetCode题解：剑指 Offer 56 - I. 数组中数字出现的次数，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/432)
 
 ## 每日一个小知识
 1. [【立哥】【每日一个小知识】写遗嘱把部分财产赠给第三者，遗嘱有效力吗？](https://github.com/chencl1986/Blog/issues/394)
