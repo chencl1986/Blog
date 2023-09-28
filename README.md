@@ -6,7 +6,7 @@ JavaScript探秘系列 更新中，已发布 5 篇。
 
 Vue3 探秘系列 更新中，已发布 1 篇。
 
-LeetCode 题解系列 更新中，已发布 273 篇。
+LeetCode 题解系列 更新中，已发布 279 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -44,6 +44,10 @@ rc-form 源码解读 1 篇，已完结。
 3. [深入理解 TypeScript 的 type 以及 type 与 interface 和 class 的区别](https://github.com/chencl1986/Blog/issues/422)
 4. [虚拟模块在前端开发中的应用与示例](https://github.com/chencl1986/Blog/issues/423)
 5. [理解并实现自动导入（Auto Import）功能的原理](https://github.com/chencl1986/Blog/issues/424)
+6. [.bind()、.call()、.apply()的区别](https://github.com/chencl1986/Blog/issues/434)
+7. [在HTML里，attribute和property有什么区别？](https://github.com/chencl1986/Blog/issues/441)
+8. [HTMLCollection 和 NodeList: 了解 DOM 的集合](https://github.com/chencl1986/Blog/issues/442)
+9. [JavaScript中的浮点数之谜：为什么0.1 + 0.2 不等于 0.3？](https://github.com/chencl1986/Blog/issues/443)
 
 # Vue3探秘
 1. [为什么从 props 中解构变量之后再watch它，无法检测到它的变化？](https://github.com/chencl1986/Blog/issues/418)
@@ -323,6 +327,12 @@ rc-form 源码解读 1 篇，已完结。
 271. [LeetCode题解：2618. 检查是否是类的对象实例，使用instanceof](https://github.com/chencl1986/Blog/issues/430)
 272. [LeetCode题解：2618. 检查是否是类的对象实例，迭代和递归](https://github.com/chencl1986/Blog/issues/431)
 273. [LeetCode题解：剑指 Offer 56 - I. 数组中数字出现的次数，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/432)
+274. [LeetCode题解：617. 合并二叉树，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/435)
+275. [LeetCode题解：2625. 扁平化嵌套数组，递归](https://github.com/chencl1986/Blog/issues/436)
+276. [LeetCode题解：2631. 分组](https://github.com/chencl1986/Blog/issues/437)
+277. [LeetCode题解：7. 整数反转，数组反转，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/438)
+278. [LeetCode题解：7. 整数反转，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/439)
+279. [LeetCode题解：1720. 解码异或后的数组，异或，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/440)
 
 ## 每日一个小知识
 1. [【立哥】【每日一个小知识】写遗嘱把部分财产赠给第三者，遗嘱有效力吗？](https://github.com/chencl1986/Blog/issues/394)
