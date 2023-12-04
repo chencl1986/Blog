@@ -2,11 +2,11 @@
 
 ## 进度
 
-JavaScript探秘系列 更新中，已发布 9 篇。
+JavaScript探秘系列 更新中，已发布 10 篇。
 
 Vue3 探秘系列 更新中，已发布 1 篇。
 
-LeetCode 题解系列 更新中，已发布 279 篇。
+LeetCode 题解系列 更新中，已发布 286 篇。
 
 Vue 入门系列 25 篇，已完结。
 
@@ -48,6 +48,7 @@ rc-form 源码解读 1 篇，已完结。
 7. [在HTML里，attribute和property有什么区别？](https://github.com/chencl1986/Blog/issues/441)
 8. [HTMLCollection 和 NodeList: 了解 DOM 的集合](https://github.com/chencl1986/Blog/issues/442)
 9. [JavaScript中的浮点数之谜：为什么0.1 + 0.2 不等于 0.3？](https://github.com/chencl1986/Blog/issues/443)
+10. [<em> 和 <strong> 标签的区别](https://github.com/chencl1986/Blog/issues/444)
 
 # Vue3探秘
 1. [为什么从 props 中解构变量之后再watch它，无法检测到它的变化？](https://github.com/chencl1986/Blog/issues/418)
@@ -333,6 +334,13 @@ rc-form 源码解读 1 篇，已完结。
 277. [LeetCode题解：7. 整数反转，数组反转，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/438)
 278. [LeetCode题解：7. 整数反转，迭代，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/439)
 279. [LeetCode题解：1720. 解码异或后的数组，异或，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/440)
+280. [LeetCode题解：1486. 数组异或操作，模拟，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/445)
+281. [LeetCode题解：剑指 Offer 03. 数组中重复的数字，原地置换，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/446)
+282. [LeetCode题解：剑指 Offer 39. 数组中出现次数超过一半的数字，摩尔投票，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/447)
+283. [LeetCode题解：993. 二叉树的堂兄弟节点，BFS，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/448)
+284. [LeetCode题解：171. Excel 表列序号，哈希表，TypeScript，详细注释](https://github.com/chencl1986/Blog/issues/449)
+285. [LeetCode题解：2. 两数相加，递归，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/450)
+286. [LeetCode题解：13. 罗马数字转整数，哈希表，JavaScript，详细注释](https://github.com/chencl1986/Blog/issues/451)
 
 ## 每日一个小知识
 1. [【立哥】【每日一个小知识】写遗嘱把部分财产赠给第三者，遗嘱有效力吗？](https://github.com/chencl1986/Blog/issues/394)
